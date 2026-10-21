@@ -1,0 +1,2 @@
+# Optional independent polygonal FEM mesher; FVM and optimization remain NumPy/SciPy.
+triangle==20250106

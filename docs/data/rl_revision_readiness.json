@@ -1,0 +1,25 @@
+{
+  "status": "ready",
+  "number_of_pde_solves": 67,
+  "max_conservation_error": 5.094134343721996e-14,
+  "controls": [
+    "uniform",
+    "screened_uniform",
+    "perimeter_pool",
+    "flux_pool",
+    "untrained",
+    "screened_uniform_full",
+    "perimeter_pool_full",
+    "flux_pool_full",
+    "untrained_full"
+  ],
+  "arms": [
+    "g095_penalty",
+    "g095_zero",
+    "g1_penalty",
+    "g1_zero",
+    "g1_zero_prior",
+    "g1_zero_full",
+    "g1_zero_prior_full"
+  ]
+}

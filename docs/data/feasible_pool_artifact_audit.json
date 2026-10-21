@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "runs": 180,
+  "raw_draws": 243686,
+  "full_geometry_checks": 45924,
+  "candidate_edits_replayed": 2880,
+  "accepted_edits": 1397,
+  "stored_fields_rechecked": 3780,
+  "interrupted_fields_rechecked": 2,
+  "discarded_interrupted_damaged_files": [
+    {
+      "file": "interrupted_attempts/improved_deep_1__181001__refill4_uniform__000/candidates/solve_004.npz",
+      "sha256": "3de7edd4fe824635b774e72a539d9f61ed481c0777a4b2a27d2696a490b23fd1",
+      "error": "File is not a zip file",
+      "used_in_results": false
+    },
+    {
+      "file": "interrupted_attempts/improved_deep_1__181001__refill4_uniform__000/candidates/solve_005.npz",
+      "sha256": "cf2e254264526c63551cf4a1836e380d7e0bdd20e40275968eb129bff95324ce",
+      "error": "File is not a zip file",
+      "used_in_results": false
+    }
+  ],
+  "maximum_recomputed_conservation_error": 6.02756139904444e-13,
+  "experimental_pde_solves": 3780,
+  "audit_new_pde_solves": 0,
+  "audit_script_sha256": "6c4e76b3f1acbb0e29e55f63af60a8decc52c9c8e41bdb28be884e8be09c632a"
+}

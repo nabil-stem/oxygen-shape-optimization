@@ -1,0 +1,14 @@
+seed: 42
+output_root: ../experiments
+model:
+  Bi: 1.0
+geometry:
+  nx: 80
+  ny: 60
+  h: 0.0125
+  boundary_mode: chamber
+solver:
+  conservation_rtol: 1.0e-9
+  conservation_atol: 1.0e-12
+  residual_tolerance: 1.0e-10
+  bounds_tolerance: 1.0e-10

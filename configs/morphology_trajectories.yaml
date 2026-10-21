@@ -1,0 +1,35 @@
+seed: 330000
+output_root: ../experiments
+n: 100
+model:
+  Bi: 1.0
+target_area: 0.24
+perimeter_limit: 8.0
+minimum_feature_width: 0.04
+protected_length: 0.12
+radii: [0.03, 0.075]
+refinement_factors: [2, 4]
+solve_budget: 129
+raw_draw_budget: 500000
+pool_size: 4
+refill_draw_limit: 96
+exploration: 0.20
+cell_move_probability: 0.25
+uncertainty: 0.03
+temperature_start: 0.003
+temperature_end: 0.00002
+restart_interval: 256
+families: [rectangle, hexagon, koch_1, koch_2, maze, dichotomous, acinar_sacs, asymmetric_sacs, hilbert_2]
+training_families: [rectangle, hexagon, koch_1, koch_2, dichotomous, acinar_sacs, asymmetric_sacs]
+methods: [flux_greedy, flux_anneal, learned_anneal]
+evaluation_seeds: [320000, 320001, 320002, 320003, 320004]
+training_bank_seed: 310001
+evaluation_bank_seed: 310101
+training_solve_budget: 65
+deep_family: acinar_sacs
+deep_solve_budget: 1025
+perimeter_control_families: [rectangle, hexagon, acinar_sacs]
+perimeter_control_budget: 65
+permeabilities: [0.01, 0.1, 1.0, 10.0, 100.0]
+counterfactual_pools: 5
+workers: 2

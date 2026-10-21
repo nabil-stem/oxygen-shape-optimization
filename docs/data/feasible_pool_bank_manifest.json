@@ -1,0 +1,50 @@
+[
+  {
+    "name": "deep_cavity_canonical",
+    "family": "deep_cavity",
+    "mask_file": "deep_cavity_canonical.npy",
+    "mask_sha256": "03a0454b888eeb89615223588e9038f0aa260c65ccf3a89620f6869b4fa5f368",
+    "original": null,
+    "use": "development; previously observed geometries, fresh rollout seeds"
+  },
+  {
+    "name": "rectangle_canonical",
+    "family": "rectangle",
+    "mask_file": "rectangle_canonical.npy",
+    "mask_sha256": "68c86ab3b048872f5090bd8270b8be2aefdf223461cb495a73236ef5a7ece88b",
+    "original": null,
+    "use": "development; previously observed geometries, fresh rollout seeds"
+  },
+  {
+    "name": "improved_deep_0",
+    "family": "deep_cavity",
+    "mask_file": "improved_deep_0.npy",
+    "mask_sha256": "f050a74cf0ec06852c4ff29d19a7ffff9b8e28250079a5037eda9fe1e4a1dc3d",
+    "original": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261019T111653094459Z_rl_revision_694225e7\\bank\\test_deep_cavity_162000.npy",
+    "use": "development; previously observed geometries, fresh rollout seeds"
+  },
+  {
+    "name": "improved_deep_1",
+    "family": "deep_cavity",
+    "mask_file": "improved_deep_1.npy",
+    "mask_sha256": "309e5b7fd8b8af20b0ab069b4fa6372e44c21e49f992bb9a299066471cb198ec",
+    "original": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261019T111653094459Z_rl_revision_694225e7\\bank\\test_deep_cavity_162001.npy",
+    "use": "development; previously observed geometries, fresh rollout seeds"
+  },
+  {
+    "name": "improved_rectangle_0",
+    "family": "rectangle",
+    "mask_file": "improved_rectangle_0.npy",
+    "mask_sha256": "aa43a3177dcf596ac3b1b0cf6db85573e666f93c13ee59e3c6f693b36cadd3f4",
+    "original": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261019T111653094459Z_rl_revision_694225e7\\bank\\test_rectangle_162000.npy",
+    "use": "development; previously observed geometries, fresh rollout seeds"
+  },
+  {
+    "name": "improved_rectangle_1",
+    "family": "rectangle",
+    "mask_file": "improved_rectangle_1.npy",
+    "mask_sha256": "a01d34565a6c6ddbfc78c511925e631ac2929f6c99d476491521d2a9375c88d7",
+    "original": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261019T111653094459Z_rl_revision_694225e7\\bank\\test_rectangle_162001.npy",
+    "use": "development; previously observed geometries, fresh rollout seeds"
+  }
+]

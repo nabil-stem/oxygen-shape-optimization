@@ -1,0 +1,21 @@
+seed: 8000
+output_root: ../experiments
+n: 100
+model:
+  Bi: 1.0
+shapes: [deep_cavity, rectangle]
+evaluation_seeds: [8000, 8001, 8002, 8003, 8004]
+solve_budget: 41
+max_attempts_per_solve: 100
+batch_size: 8
+probe_count: 4
+epsilon_uniform: 0.25
+kernel_bandwidth: 0.15
+target_relative_gain: 0.10
+target_area: 0.24
+perimeter_limit: 4.0
+minimum_feature_width: 0.04
+protected_length: 0.12
+radii: [0.05, 0.08]
+policy_stall_limit: 50
+refinement_factors: [2, 4]

@@ -1,0 +1,13 @@
+{
+  "status": "ready",
+  "number_of_pde_solves": 40,
+  "max_conservation_error": 5.1825525428209656e-14,
+  "controls": [
+    "uniform",
+    "screened_uniform",
+    "perimeter_pool",
+    "flux_pool",
+    "untrained"
+  ],
+  "all_environment_checks_passed": true
+}

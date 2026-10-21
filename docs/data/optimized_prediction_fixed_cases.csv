@@ -1,0 +1,5 @@
+shape,family,reference_state,Q,area,robin_perimeter,perimeter_fraction
+deep_cavity__initial,deep_cavity,initial,0.44436647807788965,0.24000000000000002,2.98,0.745
+deep_cavity__optimized,deep_cavity,optimized,0.49735742606927547,0.24000000000000002,4.0,1.0
+rectangle__initial,rectangle,initial,0.4870725666296736,0.24000000000000002,2.34,0.585
+rectangle__optimized,rectangle,optimized,0.5127251751789741,0.24000000000000002,3.96,0.99

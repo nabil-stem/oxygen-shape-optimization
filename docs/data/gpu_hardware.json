@@ -1,0 +1,10 @@
+{
+  "nvidia_smi_exit_code": 0,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 616.87",
+  "libraries": {
+    "torch": false,
+    "cupy": false,
+    "jax": false
+  },
+  "gpu_used": false
+}

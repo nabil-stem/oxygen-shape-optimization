@@ -1,0 +1,15 @@
+seed: 42
+output_root: ../experiments
+model:
+  Bi: 1.0
+n: 100
+initial_shape: deep_cavity
+target_area: 0.24
+perimeter_limit: 4.0
+minimum_feature_width: 0.04
+protected_length: 0.12
+radii: [0.05, 0.08]
+solve_budget: 81
+max_attempts_per_solve: 30
+min_improvement: 1.0e-7
+refinement_factors: [2, 4]

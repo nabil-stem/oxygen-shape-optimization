@@ -1,0 +1,9 @@
+comparison,revised,base,complete_pairs,mean_normalized_gain_difference,median_normalized_gain_difference,wins,ties,losses
+discount_without_penalty,g1_zero,g095_zero,20,-0.0035883637038718373,-0.0002970029570939839,5,4,11
+discount_with_penalty,g1_penalty,g095_penalty,20,-0.0032956742625320835,-0.0004991365616246113,4,4,12
+penalty_at_g095,g095_zero,g095_penalty,20,-0.0016856748057310859,-0.0005472939690578532,4,6,10
+penalty_at_g1,g1_zero,g1_penalty,20,-0.001978364247070839,0.0,4,9,7
+prior_with_cheap_screen,g1_zero_prior,g1_zero,20,-0.0008366176021784883,0.0,5,10,5
+prior_with_full_screen,g1_zero_prior_full,g1_zero_full,20,0.0012510063083411675,0.0,4,14,2
+full_screen_without_prior,g1_zero_full,g1_zero,20,-0.003611705465784894,-0.006338968289654431,9,0,11
+full_screen_with_prior,g1_zero_prior_full,g1_zero_prior,20,-0.001524081555265238,0.00016627780160245742,10,0,10

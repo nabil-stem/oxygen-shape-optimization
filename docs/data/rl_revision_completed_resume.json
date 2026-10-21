@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "new_rollout_calls": 0,
+  "new_PDE_solves": 0,
+  "checkpoint_files_unchanged": 35,
+  "stored_PDE_count": 14509,
+  "validation_runs": 176,
+  "test_runs": 152
+}

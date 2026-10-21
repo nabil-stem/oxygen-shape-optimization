@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "no_additional_PDE_solves": true,
+  "executed_source_snapshot_hashes_verified": 69,
+  "post_run_reporting_source_corrections": 1,
+  "legacy_model_files_unchanged": 3,
+  "distinct_starting_masks": 18,
+  "training_rollouts": 120,
+  "evaluation_rollouts": 100,
+  "candidate_solve_artifacts": 3520,
+  "raw_draws_training_and_evaluation": 276528,
+  "decisions": 40376,
+  "accepted_edits": 1397,
+  "max_candidate_conservation_error": 5.981455303009827e-14,
+  "max_area_error": 0.0,
+  "max_perimeter": 4.0,
+  "max_reward_roundtrip_error": 1.3322676295501878e-14,
+  "screened_uniform_matches_untrained": true,
+  "checkpoints": [
+    {
+      "replica": 50000,
+      "updates": 3037,
+      "max_abs_weight": 0.12085880226449276,
+      "frozen_digest": "822d12d23160f5ca8f1ecfef13719ae9151e7e9dd867b27648bade013c19b5ff"
+    },
+    {
+      "replica": 50001,
+      "updates": 3068,
+      "max_abs_weight": 0.10071914395169604,
+      "frozen_digest": "39aa77f0712b19e652b059ec9b86bfc383ce694f832ef2e738cb87053de72999"
+    },
+    {
+      "replica": 50002,
+      "updates": 3331,
+      "max_abs_weight": 0.08634359454522876,
+      "frozen_digest": "94ec6028db2c0e1ca6b1bfa7ed29d1939a1f542d1b1cf4b3f7bf9df04ee59193"
+    },
+    {
+      "replica": 50003,
+      "updates": 3217,
+      "max_abs_weight": 0.1149746016269964,
+      "frozen_digest": "f82fd21b29d9f19a291e8f0afca3a2dfbfe4a1b678e3c434256c7bb009d90fe9"
+    },
+    {
+      "replica": 50004,
+      "updates": 2973,
+      "max_abs_weight": 0.10675655869354926,
+      "frozen_digest": "a3af95b6dd431fab6c18903684b3f156811cb55be37d2b3962720b9ef148536b"
+    }
+  ],
+  "new_PDE_costs": {
+    "preparation_pde_solves": 414,
+    "preflight_pde_solves": 40,
+    "training_pde_solves": 2040,
+    "evaluation_pde_solves": 1700,
+    "refinement_pde_solves": 400
+  },
+  "historical_reused_pioneer_PDE_cost": 450
+}

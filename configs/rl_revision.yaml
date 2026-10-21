@@ -1,0 +1,187 @@
+seed: 149000
+output_root: ../experiments
+solver:
+  conservation_rtol: 1.0e-09
+  conservation_atol: 1.0e-12
+  residual_tolerance: 1.0e-10
+  bounds_tolerance: 1.0e-10
+model:
+  Bi: 1.0
+n: 100
+initial_shape: deep_cavity
+target_area: 0.24
+perimeter_limit: 4.0
+minimum_feature_width: 0.04
+protected_length: 0.12
+radii:
+- 0.05
+- 0.08
+solve_budget: 17
+max_attempts_per_solve: 30
+min_improvement: 1.0e-07
+policy_stall_limit: 50
+refinement_factors:
+- 2
+- 4
+batch_size: 8
+probe_count: 4
+epsilon_uniform: 0.25
+kernel_bandwidth: 0.15
+training_references:
+- family: deep_cavity
+  reference:
+    run_directory: ../experiments/20261018T233304507960Z_sensitivity_benchmark_4f9b50bb/runs/deep_cavity_uniform_8000
+    mask_sha256: 9efb2bd4518f82b1f9bfc4b89e72fe048549f2a09eaa2040d10931d755bbbb5b
+    expected_seed: 8000
+    expected_method: uniform
+    minimum_perimeter_fraction: 0.9
+- family: deep_cavity
+  reference:
+    run_directory: ../experiments/20261018T233304507960Z_sensitivity_benchmark_4f9b50bb/runs/deep_cavity_uniform_8001
+    mask_sha256: 4dc3b8cc332b769d2786e388fea9fbfb4f4b3462f29b27bddaaf53ef388c0c90
+    expected_seed: 8001
+    expected_method: uniform
+    minimum_perimeter_fraction: 0.9
+- family: deep_cavity
+  reference:
+    run_directory: ../experiments/20261018T233304507960Z_sensitivity_benchmark_4f9b50bb/runs/deep_cavity_uniform_8002
+    mask_sha256: 40c6f2b9f4aa2864f0ded474d3ae49121e12c06f936ec7fcfa457c81d91ed5be
+    expected_seed: 8002
+    expected_method: uniform
+    minimum_perimeter_fraction: 0.9
+- family: deep_cavity
+  reference:
+    run_directory: ../experiments/20261018T233304507960Z_sensitivity_benchmark_4f9b50bb/runs/deep_cavity_uniform_8003
+    mask_sha256: 28920df66769e01482e15bf0389c93435c140df97b27aca0a990d1dbf7e2a537
+    expected_seed: 8003
+    expected_method: uniform
+    minimum_perimeter_fraction: 0.9
+- family: deep_cavity
+  reference:
+    run_directory: ../experiments/20261018T233304507960Z_sensitivity_benchmark_4f9b50bb/runs/deep_cavity_uniform_8004
+    mask_sha256: ad1e1f5bb3a4ab5b5d3db5ca428ebd2fbd6d33813cfab0f86fb90de103062cf9
+    expected_seed: 8004
+    expected_method: uniform
+    minimum_perimeter_fraction: 0.9
+- family: rectangle
+  reference:
+    run_directory: ../experiments/20261018T233304507960Z_sensitivity_benchmark_4f9b50bb/runs/rectangle_uniform_8000
+    mask_sha256: d22080f89a6897285e6e7880a6b5d396c44b7e54fd8a66e5d0ac0ee8ccc438d0
+    expected_seed: 8000
+    expected_method: uniform
+    minimum_perimeter_fraction: 0.9
+- family: rectangle
+  reference:
+    run_directory: ../experiments/20261018T233304507960Z_sensitivity_benchmark_4f9b50bb/runs/rectangle_uniform_8001
+    mask_sha256: 4ef0086c302349ddcbb0a66b314254ca13f0e33f7065ed490702a9191540b725
+    expected_seed: 8001
+    expected_method: uniform
+    minimum_perimeter_fraction: 0.9
+- family: rectangle
+  reference:
+    run_directory: ../experiments/20261018T233304507960Z_sensitivity_benchmark_4f9b50bb/runs/rectangle_uniform_8002
+    mask_sha256: 19723e931153fb5a87715b09c8741a06d4be0efeb1ded73650e976f364b72e09
+    expected_seed: 8002
+    expected_method: uniform
+    minimum_perimeter_fraction: 0.9
+- family: rectangle
+  reference:
+    run_directory: ../experiments/20261018T233304507960Z_sensitivity_benchmark_4f9b50bb/runs/rectangle_uniform_8003
+    mask_sha256: a1c53502880c9b7ea646fb2d8560cfda682ce76c1d15d5327371b90f54bc604d
+    expected_seed: 8003
+    expected_method: uniform
+    minimum_perimeter_fraction: 0.9
+- family: rectangle
+  reference:
+    run_directory: ../experiments/20261018T233304507960Z_sensitivity_benchmark_4f9b50bb/runs/rectangle_uniform_8004
+    mask_sha256: 32b9afd79abd6d0594694b483828f0203f701fd96dd8bb7e475656fa3e395c4e
+    expected_seed: 8004
+    expected_method: uniform
+    minimum_perimeter_fraction: 0.9
+replica_seeds:
+- 150000
+- 150001
+- 150002
+- 150003
+- 150004
+validation_generation_seeds:
+- 161000
+test_generation_seeds:
+- 162000
+- 162001
+validation_rollout_seeds:
+- 171000
+- 171001
+test_rollout_seeds:
+- 172000
+- 172001
+episodes: 12
+raw_draw_budget: 6000
+pool_size: 8
+learning_rate: 0.05
+discount: 0.95
+epsilon_start: 1.0
+epsilon_end: 0.15
+reward_scale: 100.0
+invalid_reward: -0.01
+families:
+- deep_cavity
+- rectangle
+arms:
+- name: g095_penalty
+  discount: 0.95
+  invalid_reward: -0.01
+  flux_prior_scale: 0.0
+  candidate_screening: cheap
+- name: g095_zero
+  discount: 0.95
+  invalid_reward: 0.0
+  flux_prior_scale: 0.0
+  candidate_screening: cheap
+- name: g1_penalty
+  discount: 1.0
+  invalid_reward: -0.01
+  flux_prior_scale: 0.0
+  candidate_screening: cheap
+- name: g1_zero
+  discount: 1.0
+  invalid_reward: 0.0
+  flux_prior_scale: 0.0
+  candidate_screening: cheap
+- name: g1_zero_prior
+  discount: 1.0
+  invalid_reward: 0.0
+  flux_prior_scale: 1.0
+  candidate_screening: cheap
+- name: g1_zero_full
+  discount: 1.0
+  invalid_reward: 0.0
+  flux_prior_scale: 0.0
+  candidate_screening: full
+- name: g1_zero_prior_full
+  discount: 1.0
+  invalid_reward: 0.0
+  flux_prior_scale: 1.0
+  candidate_screening: full
+test_core_arms:
+- g095_penalty
+- g1_zero_prior_full
+excluded_geometry_hashes:
+- 20a7d8da36868c7bd494f16a34f35d0503df6bba53ac020f877a72702d6af88c
+- 75c3e227100ddfb79b97d040313dfcc8d971ed7b0d428a545aca68b783e72552
+- 9a15f4b8588f310a6e6a7b749ad27b40127a456ffbf0e1a4e41ac2b6c0cdbb3e
+- f7e2e356dd77daffbabcd9582624dc00c08b6d01c416713fef28c04a986f0b70
+- 7720b321ee9a545874ad0cb18e1327c00a909839f7045c6490728c84f956344b
+- f72495e74ca2fbf31f1b48afa0cc7caddcb814e94114430ce6cbcd734c123abe
+- d068286055576b7a4cffa8ede4a41f5dd5396b08207af8da032a61bc919ba7b3
+- 2209e85b2cfdac42e084400672f61385fc36566690ac083270b298b604c38914
+- e8965c53f5cb6b50fcbd3a09a5ea21254d2b3234c5d30fb5a6b53d2a48cd2a96
+- 65d2a4570e08d72f31375073c788e1dcbc29ba4b406174397223ea28e3fbe7a2
+- 20d29cdb058f1207664d1080e53f118c87674cab755c5d0e359c520c206fbc32
+- ff0f8761d0d61905200340382c0fb69e6f50f71f287a04462cffb4ab87d3301c
+- 6a13b359861e554edda4dd9a1802daf1aa662ee5f8bed72306491a7b9662f625
+- 8825dc2284c50745cd7c8a26d7e7ec47da71c3a8e28932b7754b8ef27279b580
+- 511fb1c4357e240c37d2aa9a96beaa4f9c95322e9d0fe1c55cf52585b649fd46
+- 5649498565185020fecde56ac0170bf63da1665942789ce6c06755f5be6bc3b6
+- 3ca2565b7c710b8b4bdf6d8791fa6308820b7e9ff76489a3d36c053800d00d18
+- caadfd7295382432947cee1475f404ebc1207d5307e6e11f7d9c7249a5b9043a

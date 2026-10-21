@@ -1,0 +1,449 @@
+{
+  "schema": 1,
+  "n": 100,
+  "Bi": 1.0,
+  "starts": [
+    {
+      "name": "train_deep_cavity_canonical",
+      "family": "deep_cavity",
+      "split": "train",
+      "mask_file": "train_deep_cavity_canonical.npy",
+      "mask_sha256": "03a0454b888eeb89615223588e9038f0aa260c65ccf3a89620f6869b4fa5f368",
+      "geometry_hash": "20a7d8da36868c7bd494f16a34f35d0503df6bba53ac020f877a72702d6af88c",
+      "Q": 0.44436647807788965,
+      "Q_200": 0.44454856038011725,
+      "Q_400": 0.444599320601215,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 2.98,
+      "eta": 0.14911626781137235,
+      "source": "canonical"
+    },
+    {
+      "name": "train_rectangle_canonical",
+      "family": "rectangle",
+      "split": "train",
+      "mask_file": "train_rectangle_canonical.npy",
+      "mask_sha256": "68c86ab3b048872f5090bd8270b8be2aefdf223461cb495a73236ef5a7ece88b",
+      "geometry_hash": "75c3e227100ddfb79b97d040313dfcc8d971ed7b0d428a545aca68b783e72552",
+      "Q": 0.4870725666296736,
+      "Q_200": 0.48775697334839757,
+      "Q_400": 0.488006436406124,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 2.34,
+      "eta": 0.20815066949986052,
+      "source": "canonical"
+    },
+    {
+      "name": "train_deep_cavity_8000",
+      "family": "deep_cavity",
+      "split": "train",
+      "mask_file": "train_deep_cavity_8000.npy",
+      "mask_sha256": "9efb2bd4518f82b1f9bfc4b89e72fe048549f2a09eaa2040d10931d755bbbb5b",
+      "geometry_hash": "9a15f4b8588f310a6e6a7b749ad27b40127a456ffbf0e1a4e41ac2b6c0cdbb3e",
+      "Q": 0.49735742606927547,
+      "Q_200": 0.49838169817410616,
+      "Q_400": 0.49876941492683846,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 4.0,
+      "eta": 0.12433935651731887,
+      "source": {
+        "source_run": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261018T233304507960Z_sensitivity_benchmark_4f9b50bb\\runs\\deep_cavity_uniform_8000",
+        "expected_seed": 8000,
+        "expected_method": "uniform",
+        "file_sha256": {
+          "final_geometry.npy": "9efb2bd4518f82b1f9bfc4b89e72fe048549f2a09eaa2040d10931d755bbbb5b",
+          "initial_geometry.npy": "03a0454b888eeb89615223588e9038f0aa260c65ccf3a89620f6869b4fa5f368",
+          "config.yaml": "e276e97f02bf4571e3bc5a8a4dead88cb5ae26b33db7954103c448d3f72a2db3",
+          "summary.json": "cc6fc0be121c7ec0b9e569abb822b5e7ae8d5c7458e2a14b64ff9ccf0b7d6e3e"
+        },
+        "snapshot_directory": "C:/Users/NABIL/OneDrive/Documents/projects/Biomed/Proba Approach/Antigravity RL method/experiments/20261019T031120855645Z_pioneer_rl_4ad9c2ee/bank/source_inputs/reference_00",
+        "recorded_Q": 0.49735742606927547,
+        "area": 0.24000000000000002,
+        "robin_perimeter": 4.0,
+        "perimeter_fraction": 1.0
+      }
+    },
+    {
+      "name": "train_deep_cavity_8001",
+      "family": "deep_cavity",
+      "split": "train",
+      "mask_file": "train_deep_cavity_8001.npy",
+      "mask_sha256": "4dc3b8cc332b769d2786e388fea9fbfb4f4b3462f29b27bddaaf53ef388c0c90",
+      "geometry_hash": "f7e2e356dd77daffbabcd9582624dc00c08b6d01c416713fef28c04a986f0b70",
+      "Q": 0.5072937648796474,
+      "Q_200": 0.50842529522157,
+      "Q_400": 0.5088546141153685,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.98,
+      "eta": 0.12746074494463502,
+      "source": {
+        "source_run": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261018T233304507960Z_sensitivity_benchmark_4f9b50bb\\runs\\deep_cavity_uniform_8001",
+        "expected_seed": 8001,
+        "expected_method": "uniform",
+        "file_sha256": {
+          "final_geometry.npy": "4dc3b8cc332b769d2786e388fea9fbfb4f4b3462f29b27bddaaf53ef388c0c90",
+          "initial_geometry.npy": "03a0454b888eeb89615223588e9038f0aa260c65ccf3a89620f6869b4fa5f368",
+          "config.yaml": "e533f3449cee613bba6d40735b8df115cc39b2df865ec37b92503cf77bb726a0",
+          "summary.json": "2f24554aef167f683045f708ae565bb9ddda9c2affbbd72d523057f39beb54ae"
+        },
+        "snapshot_directory": "C:/Users/NABIL/OneDrive/Documents/projects/Biomed/Proba Approach/Antigravity RL method/experiments/20261019T031120855645Z_pioneer_rl_4ad9c2ee/bank/source_inputs/reference_01",
+        "recorded_Q": 0.5072937648796474,
+        "area": 0.24000000000000002,
+        "robin_perimeter": 3.98,
+        "perimeter_fraction": 0.995
+      }
+    },
+    {
+      "name": "train_deep_cavity_8002",
+      "family": "deep_cavity",
+      "split": "train",
+      "mask_file": "train_deep_cavity_8002.npy",
+      "mask_sha256": "40c6f2b9f4aa2864f0ded474d3ae49121e12c06f936ec7fcfa457c81d91ed5be",
+      "geometry_hash": "7720b321ee9a545874ad0cb18e1327c00a909839f7045c6490728c84f956344b",
+      "Q": 0.49773004905244406,
+      "Q_200": 0.4985553441512658,
+      "Q_400": 0.49886167195373865,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 4.0,
+      "eta": 0.12443251226311101,
+      "source": {
+        "source_run": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261018T233304507960Z_sensitivity_benchmark_4f9b50bb\\runs\\deep_cavity_uniform_8002",
+        "expected_seed": 8002,
+        "expected_method": "uniform",
+        "file_sha256": {
+          "final_geometry.npy": "40c6f2b9f4aa2864f0ded474d3ae49121e12c06f936ec7fcfa457c81d91ed5be",
+          "initial_geometry.npy": "03a0454b888eeb89615223588e9038f0aa260c65ccf3a89620f6869b4fa5f368",
+          "config.yaml": "53cc1f5862b04fb4785a879fed3b97b6a3fb89d602d694076b0587f5c2ed182e",
+          "summary.json": "f9d7f02e93c9ed72917c151f7f82bc2176d8b5fa8e106ace13080593237f9e11"
+        },
+        "snapshot_directory": "C:/Users/NABIL/OneDrive/Documents/projects/Biomed/Proba Approach/Antigravity RL method/experiments/20261019T031120855645Z_pioneer_rl_4ad9c2ee/bank/source_inputs/reference_02",
+        "recorded_Q": 0.49773004905244406,
+        "area": 0.24000000000000002,
+        "robin_perimeter": 4.0,
+        "perimeter_fraction": 1.0
+      }
+    },
+    {
+      "name": "train_deep_cavity_8003",
+      "family": "deep_cavity",
+      "split": "train",
+      "mask_file": "train_deep_cavity_8003.npy",
+      "mask_sha256": "28920df66769e01482e15bf0389c93435c140df97b27aca0a990d1dbf7e2a537",
+      "geometry_hash": "f72495e74ca2fbf31f1b48afa0cc7caddcb814e94114430ce6cbcd734c123abe",
+      "Q": 0.504436257885497,
+      "Q_200": 0.5054575190474192,
+      "Q_400": 0.5058422462630093,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.98,
+      "eta": 0.1267427783631902,
+      "source": {
+        "source_run": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261018T233304507960Z_sensitivity_benchmark_4f9b50bb\\runs\\deep_cavity_uniform_8003",
+        "expected_seed": 8003,
+        "expected_method": "uniform",
+        "file_sha256": {
+          "final_geometry.npy": "28920df66769e01482e15bf0389c93435c140df97b27aca0a990d1dbf7e2a537",
+          "initial_geometry.npy": "03a0454b888eeb89615223588e9038f0aa260c65ccf3a89620f6869b4fa5f368",
+          "config.yaml": "b866cee6edfcb506a018803d5ffb1374b8038af8120c28735cf639f0083645ca",
+          "summary.json": "133c5c02f9afcadb9acc22463a6f1d12f7a8f61cf65694ee182e612d0ddc65a6"
+        },
+        "snapshot_directory": "C:/Users/NABIL/OneDrive/Documents/projects/Biomed/Proba Approach/Antigravity RL method/experiments/20261019T031120855645Z_pioneer_rl_4ad9c2ee/bank/source_inputs/reference_03",
+        "recorded_Q": 0.504436257885497,
+        "area": 0.24000000000000002,
+        "robin_perimeter": 3.98,
+        "perimeter_fraction": 0.995
+      }
+    },
+    {
+      "name": "train_deep_cavity_8004",
+      "family": "deep_cavity",
+      "split": "train",
+      "mask_file": "train_deep_cavity_8004.npy",
+      "mask_sha256": "ad1e1f5bb3a4ab5b5d3db5ca428ebd2fbd6d33813cfab0f86fb90de103062cf9",
+      "geometry_hash": "d068286055576b7a4cffa8ede4a41f5dd5396b08207af8da032a61bc919ba7b3",
+      "Q": 0.5010551935479681,
+      "Q_200": 0.5020803986528344,
+      "Q_400": 0.5024676489128321,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.94,
+      "eta": 0.1271713689208041,
+      "source": {
+        "source_run": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261018T233304507960Z_sensitivity_benchmark_4f9b50bb\\runs\\deep_cavity_uniform_8004",
+        "expected_seed": 8004,
+        "expected_method": "uniform",
+        "file_sha256": {
+          "final_geometry.npy": "ad1e1f5bb3a4ab5b5d3db5ca428ebd2fbd6d33813cfab0f86fb90de103062cf9",
+          "initial_geometry.npy": "03a0454b888eeb89615223588e9038f0aa260c65ccf3a89620f6869b4fa5f368",
+          "config.yaml": "2247e0b07ac2526b1f73b8819e4dbddab37f1f4cfb6057588880bb79d4410122",
+          "summary.json": "6360329536c2aa0e7bac7246db133ce5ede4e454e6990c60a6c68e1bdb0e0f10"
+        },
+        "snapshot_directory": "C:/Users/NABIL/OneDrive/Documents/projects/Biomed/Proba Approach/Antigravity RL method/experiments/20261019T031120855645Z_pioneer_rl_4ad9c2ee/bank/source_inputs/reference_04",
+        "recorded_Q": 0.5010551935479681,
+        "area": 0.24000000000000002,
+        "robin_perimeter": 3.94,
+        "perimeter_fraction": 0.985
+      }
+    },
+    {
+      "name": "train_rectangle_8000",
+      "family": "rectangle",
+      "split": "train",
+      "mask_file": "train_rectangle_8000.npy",
+      "mask_sha256": "d22080f89a6897285e6e7880a6b5d396c44b7e54fd8a66e5d0ac0ee8ccc438d0",
+      "geometry_hash": "2209e85b2cfdac42e084400672f61385fc36566690ac083270b298b604c38914",
+      "Q": 0.5127251751789741,
+      "Q_200": 0.5137794948741867,
+      "Q_400": 0.5141797222432903,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.96,
+      "eta": 0.12947605433812479,
+      "source": {
+        "source_run": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261018T233304507960Z_sensitivity_benchmark_4f9b50bb\\runs\\rectangle_uniform_8000",
+        "expected_seed": 8000,
+        "expected_method": "uniform",
+        "file_sha256": {
+          "final_geometry.npy": "d22080f89a6897285e6e7880a6b5d396c44b7e54fd8a66e5d0ac0ee8ccc438d0",
+          "initial_geometry.npy": "68c86ab3b048872f5090bd8270b8be2aefdf223461cb495a73236ef5a7ece88b",
+          "config.yaml": "b9d56dd3680b92541e542d441bb17b707a84e5b55f7ef3fcbeacf907c498886b",
+          "summary.json": "2e5e8caaf4f5e32f9a87037477d13d43b6db621f27dad8347a594d1b99b44f6a"
+        },
+        "snapshot_directory": "C:/Users/NABIL/OneDrive/Documents/projects/Biomed/Proba Approach/Antigravity RL method/experiments/20261019T031120855645Z_pioneer_rl_4ad9c2ee/bank/source_inputs/reference_05",
+        "recorded_Q": 0.5127251751789741,
+        "area": 0.24000000000000002,
+        "robin_perimeter": 3.96,
+        "perimeter_fraction": 0.99
+      }
+    },
+    {
+      "name": "train_rectangle_8001",
+      "family": "rectangle",
+      "split": "train",
+      "mask_file": "train_rectangle_8001.npy",
+      "mask_sha256": "4ef0086c302349ddcbb0a66b314254ca13f0e33f7065ed490702a9191540b725",
+      "geometry_hash": "e8965c53f5cb6b50fcbd3a09a5ea21254d2b3234c5d30fb5a6b53d2a48cd2a96",
+      "Q": 0.5073488551218208,
+      "Q_200": 0.5084564177464452,
+      "Q_400": 0.5088801177442175,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.86,
+      "eta": 0.13143752723363233,
+      "source": {
+        "source_run": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261018T233304507960Z_sensitivity_benchmark_4f9b50bb\\runs\\rectangle_uniform_8001",
+        "expected_seed": 8001,
+        "expected_method": "uniform",
+        "file_sha256": {
+          "final_geometry.npy": "4ef0086c302349ddcbb0a66b314254ca13f0e33f7065ed490702a9191540b725",
+          "initial_geometry.npy": "68c86ab3b048872f5090bd8270b8be2aefdf223461cb495a73236ef5a7ece88b",
+          "config.yaml": "06c7ab5bc52c192acdb4caeefb5e73b646039c018cde70f22b340e6d94c456b2",
+          "summary.json": "a9909edca1fc25b24105bdec4753f3fe1e53061bbd604df32dc30355021ba917"
+        },
+        "snapshot_directory": "C:/Users/NABIL/OneDrive/Documents/projects/Biomed/Proba Approach/Antigravity RL method/experiments/20261019T031120855645Z_pioneer_rl_4ad9c2ee/bank/source_inputs/reference_06",
+        "recorded_Q": 0.5073488551218208,
+        "area": 0.24000000000000002,
+        "robin_perimeter": 3.86,
+        "perimeter_fraction": 0.965
+      }
+    },
+    {
+      "name": "train_rectangle_8002",
+      "family": "rectangle",
+      "split": "train",
+      "mask_file": "train_rectangle_8002.npy",
+      "mask_sha256": "19723e931153fb5a87715b09c8741a06d4be0efeb1ded73650e976f364b72e09",
+      "geometry_hash": "65d2a4570e08d72f31375073c788e1dcbc29ba4b406174397223ea28e3fbe7a2",
+      "Q": 0.5064554183140788,
+      "Q_200": 0.5074022106231104,
+      "Q_400": 0.5077580708170458,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.96,
+      "eta": 0.12789278240254515,
+      "source": {
+        "source_run": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261018T233304507960Z_sensitivity_benchmark_4f9b50bb\\runs\\rectangle_uniform_8002",
+        "expected_seed": 8002,
+        "expected_method": "uniform",
+        "file_sha256": {
+          "final_geometry.npy": "19723e931153fb5a87715b09c8741a06d4be0efeb1ded73650e976f364b72e09",
+          "initial_geometry.npy": "68c86ab3b048872f5090bd8270b8be2aefdf223461cb495a73236ef5a7ece88b",
+          "config.yaml": "d3577de9a8130c29fbfbf1a9b0fa1de3cfdbafdc831cad5c0ec1f668636f93b3",
+          "summary.json": "236ccbe5fcbc5ba9d39c77ffe38b3058c447d48537f9ea05a856ba8c141ebbb1"
+        },
+        "snapshot_directory": "C:/Users/NABIL/OneDrive/Documents/projects/Biomed/Proba Approach/Antigravity RL method/experiments/20261019T031120855645Z_pioneer_rl_4ad9c2ee/bank/source_inputs/reference_07",
+        "recorded_Q": 0.5064554183140788,
+        "area": 0.24000000000000002,
+        "robin_perimeter": 3.96,
+        "perimeter_fraction": 0.99
+      }
+    },
+    {
+      "name": "train_rectangle_8003",
+      "family": "rectangle",
+      "split": "train",
+      "mask_file": "train_rectangle_8003.npy",
+      "mask_sha256": "a1c53502880c9b7ea646fb2d8560cfda682ce76c1d15d5327371b90f54bc604d",
+      "geometry_hash": "20d29cdb058f1207664d1080e53f118c87674cab755c5d0e359c520c206fbc32",
+      "Q": 0.5192219992144659,
+      "Q_200": 0.5204858766994442,
+      "Q_400": 0.5209678269544566,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.8200000000000003,
+      "eta": 0.1359219893231586,
+      "source": {
+        "source_run": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261018T233304507960Z_sensitivity_benchmark_4f9b50bb\\runs\\rectangle_uniform_8003",
+        "expected_seed": 8003,
+        "expected_method": "uniform",
+        "file_sha256": {
+          "final_geometry.npy": "a1c53502880c9b7ea646fb2d8560cfda682ce76c1d15d5327371b90f54bc604d",
+          "initial_geometry.npy": "68c86ab3b048872f5090bd8270b8be2aefdf223461cb495a73236ef5a7ece88b",
+          "config.yaml": "ee306a19e8f30115bb7bc499540b14ee9f736647d96af85e46e81c8e418fcd85",
+          "summary.json": "a420b662e3095eeb61a4c2731b765b1e797683cdad3470c2b769065ca88b2a56"
+        },
+        "snapshot_directory": "C:/Users/NABIL/OneDrive/Documents/projects/Biomed/Proba Approach/Antigravity RL method/experiments/20261019T031120855645Z_pioneer_rl_4ad9c2ee/bank/source_inputs/reference_08",
+        "recorded_Q": 0.5192219992144659,
+        "area": 0.24000000000000002,
+        "robin_perimeter": 3.8200000000000003,
+        "perimeter_fraction": 0.9550000000000001
+      }
+    },
+    {
+      "name": "train_rectangle_8004",
+      "family": "rectangle",
+      "split": "train",
+      "mask_file": "train_rectangle_8004.npy",
+      "mask_sha256": "32b9afd79abd6d0594694b483828f0203f701fd96dd8bb7e475656fa3e395c4e",
+      "geometry_hash": "ff0f8761d0d61905200340382c0fb69e6f50f71f287a04462cffb4ab87d3301c",
+      "Q": 0.5081573078925882,
+      "Q_200": 0.5090688538783639,
+      "Q_400": 0.509410490503269,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.84,
+      "eta": 0.13233263226369485,
+      "source": {
+        "source_run": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261018T233304507960Z_sensitivity_benchmark_4f9b50bb\\runs\\rectangle_uniform_8004",
+        "expected_seed": 8004,
+        "expected_method": "uniform",
+        "file_sha256": {
+          "final_geometry.npy": "32b9afd79abd6d0594694b483828f0203f701fd96dd8bb7e475656fa3e395c4e",
+          "initial_geometry.npy": "68c86ab3b048872f5090bd8270b8be2aefdf223461cb495a73236ef5a7ece88b",
+          "config.yaml": "6ec01e7b55b756573591e74b2d1ebaa674629d1a73ab16163be67aac8220fda1",
+          "summary.json": "18ad104127acfd02f7183005a07ca783d16427d4fa264df10c1f164788263b82"
+        },
+        "snapshot_directory": "C:/Users/NABIL/OneDrive/Documents/projects/Biomed/Proba Approach/Antigravity RL method/experiments/20261019T031120855645Z_pioneer_rl_4ad9c2ee/bank/source_inputs/reference_09",
+        "recorded_Q": 0.5081573078925882,
+        "area": 0.24000000000000002,
+        "robin_perimeter": 3.84,
+        "perimeter_fraction": 0.96
+      }
+    },
+    {
+      "name": "validation_deep_cavity_61000",
+      "family": "deep_cavity",
+      "split": "validation",
+      "mask_file": "validation_deep_cavity_61000.npy",
+      "mask_sha256": "5924855fa5c76572e2b3f713ce3db269ea418a87151c7abbc0da09a936651387",
+      "geometry_hash": "6a13b359861e554edda4dd9a1802daf1aa662ee5f8bed72306491a7b9662f625",
+      "Q": 0.5107401568822194,
+      "Q_200": 0.5119634421802711,
+      "Q_400": 0.5124426983503475,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 4.0,
+      "eta": 0.12768503922055485,
+      "source": {
+        "generation_job": "validation_deep_cavity_61000_screened_uniform",
+        "method": "screened_uniform"
+      }
+    },
+    {
+      "name": "validation_rectangle_61000",
+      "family": "rectangle",
+      "split": "validation",
+      "mask_file": "validation_rectangle_61000.npy",
+      "mask_sha256": "f935ac54cd6332195db933276b5e66047a7cf457cfd703bb54b5c750e47974ab",
+      "geometry_hash": "8825dc2284c50745cd7c8a26d7e7ec47da71c3a8e28932b7754b8ef27279b580",
+      "Q": 0.5497230523301917,
+      "Q_200": 0.5514463750913352,
+      "Q_400": 0.5521203742410037,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.98,
+      "eta": 0.13812136993220897,
+      "source": {
+        "generation_job": "validation_rectangle_61000_flux_pool",
+        "method": "flux_pool"
+      }
+    },
+    {
+      "name": "test_deep_cavity_62000",
+      "family": "deep_cavity",
+      "split": "test",
+      "mask_file": "test_deep_cavity_62000.npy",
+      "mask_sha256": "745126f97593a129a51b8d21a83eaaeecb735b00d3eddf2f2d79cb56d54d4ac9",
+      "geometry_hash": "511fb1c4357e240c37d2aa9a96beaa4f9c95322e9d0fe1c55cf52585b649fd46",
+      "Q": 0.505151154727705,
+      "Q_200": 0.50618890754018,
+      "Q_400": 0.5065804803173846,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.98,
+      "eta": 0.12692240068535302,
+      "source": {
+        "generation_job": "test_deep_cavity_62000_screened_uniform",
+        "method": "screened_uniform"
+      }
+    },
+    {
+      "name": "test_deep_cavity_62001",
+      "family": "deep_cavity",
+      "split": "test",
+      "mask_file": "test_deep_cavity_62001.npy",
+      "mask_sha256": "6681435e3e5fa14957ee0c5a1e92d84f26e50a31a3ae0c81cd5fb9b31a092cf4",
+      "geometry_hash": "5649498565185020fecde56ac0170bf63da1665942789ce6c06755f5be6bc3b6",
+      "Q": 0.5038019484683401,
+      "Q_200": 0.5049187299657677,
+      "Q_400": 0.5053454808798558,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.94,
+      "eta": 0.12786851483968023,
+      "source": {
+        "generation_job": "test_deep_cavity_62001_flux_pool",
+        "method": "flux_pool"
+      }
+    },
+    {
+      "name": "test_rectangle_62000",
+      "family": "rectangle",
+      "split": "test",
+      "mask_file": "test_rectangle_62000.npy",
+      "mask_sha256": "d758604276de1429574e78872f9023207ccb2b0ec64e89aaa2392ccf49dc37ac",
+      "geometry_hash": "3ca2565b7c710b8b4bdf6d8791fa6308820b7e9ff76489a3d36c053800d00d18",
+      "Q": 0.5346234727405587,
+      "Q_200": 0.5359476201059103,
+      "Q_400": 0.5364547567934281,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.9,
+      "eta": 0.13708294172834837,
+      "source": {
+        "generation_job": "test_rectangle_62000_flux_pool",
+        "method": "flux_pool"
+      }
+    },
+    {
+      "name": "test_rectangle_62001",
+      "family": "rectangle",
+      "split": "test",
+      "mask_file": "test_rectangle_62001.npy",
+      "mask_sha256": "9ff6e01bf957501b6a95a9e4aa29b0ee57b82ed0239221000829ff34933b6c19",
+      "geometry_hash": "caadfd7295382432947cee1475f404ebc1207d5307e6e11f7d9c7249a5b9043a",
+      "Q": 0.5096842920004987,
+      "Q_200": 0.5106424205143671,
+      "Q_400": 0.511002873860857,
+      "area": 0.24000000000000002,
+      "robin_perimeter": 3.98,
+      "eta": 0.1280613798996228,
+      "source": {
+        "generation_job": "test_rectangle_62001_flux_pool",
+        "method": "flux_pool"
+      }
+    }
+  ],
+  "preparation_pde_solves": 414,
+  "historical_pioneer_pde_solves": 450,
+  "max_conservation_error": 5.356864690359731e-13,
+  "selection": "Best eligible refined Q among three fixed controls per seed; before training"
+}

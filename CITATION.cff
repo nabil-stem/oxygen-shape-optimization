@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this versioned software and data release; the manuscript is an unreviewed working draft."
+type: software
+title: "Oxygen shape optimization: a constrained Robin-diffusion benchmark"
+authors:
+  - family-names: "ES-SAADI"
+    given-names: "Nabil"
+    affiliation: "Independent researcher"
+version: 0.1.0
+date-released: 2026-10-21
+license: MIT
+repository-code: "https://github.com/nabil-stem/oxygen-shape-optimization"
+url: "https://github.com/nabil-stem/oxygen-shape-optimization/releases/tag/v0.1.0"
+abstract: >-
+  An exploratory two-dimensional benchmark for maximizing steady diffusive
+  transfer through Robin walls under fixed-source and geometric constraints.
+  Includes finite-volume reference software, independent FEM checks, constrained
+  search controls, source-wall sensitivity, executed sources and raw evidence.
+  Original data and figures have separate CC-BY-4.0 terms. No globally optimal
+  shape, natural-acinar optimality or general learning advantage is claimed.

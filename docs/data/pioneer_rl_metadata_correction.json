@@ -1,0 +1,27 @@
+{
+  "reason": "Aggregate row unpacking overwrote replica method with generic learned environment method",
+  "corrected_replica_labels": 50,
+  "new_PDE_solves": 0,
+  "physical_records_sha256_before_and_after": "388157e83b6a5c02748e8ac7b1764c2a38ef14340df0113431009380a87d5665",
+  "checkpoint_file_hashes_unchanged": {
+    "replica_50000.npz": "9e0512f28bf2431bc772796e10ba89cb212b0d22ed887e39ab15d4a6efbcb2bd",
+    "replica_50001.npz": "b0ec5d8f8a815fc17aceac3cff0bf1b9ea2db61930d811a86f02c62e7007bf9d",
+    "replica_50002.npz": "9e9a61ad43d889f9836f4e4e92967c6b7abbb090dbbed158434833dc1e645aeb",
+    "replica_50003.npz": "8c44e47c5964a56b843eaf9b9874387a19767f8c4ab1468ffbdacd07df70cd2f",
+    "replica_50004.npz": "685195fa1ab3880cba663859a6f8a724c4b10ac38073b4e147153f78ad92bfad"
+  },
+  "executed_sources_preserved": true,
+  "current_source_corrections": {
+    "src/oxygen_shape/experiments/pioneer_training.py": {
+      "executed_sha256": "7e198d57a925da703e8f3bb889be8d0886b9c2a3cfee8068ed7621b73ffd6f36",
+      "corrected_sha256": "3b42320356e5e7cd882c8c77e6754805be82f681d6e12ef8ae388effaae363f6"
+    }
+  },
+  "original_artifact_hashes": {
+    "evaluation_index.json": "21fd0732ede26f35bd23b1098d0f5933596cd752299bc669923dbcbb63334594",
+    "evaluations.csv": "027c8aa6953fdf1794f39521c145a270e0b39b2335a9058edc2ce9e43f3df42d",
+    "report.md": "1b7c2c2a0430607d5dd7a5b138975915fa398e27a02f39b67188ea20fea4cfee",
+    "figures/training_and_test.png": "0a723a1269f264ae0b21f587f62a9b35755a8c39b68535eb67810732f01a4e2f"
+  },
+  "resume_note": "Executed source identity remains unchanged. Live corrected code intentionally rejects this completed old-source run; future runs use the correction. Checkpoints retain original identity."
+}

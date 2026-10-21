@@ -1,0 +1,22 @@
+seed: 8200
+replicates: 5
+output_root: ../experiments
+n: 100
+model:
+  Bi: 1.0
+shapes: [deep_cavity, rectangle]
+target_area: 0.24
+perimeter_limit: 4.0
+minimum_feature_width: 0.04
+protected_length: 0.12
+radii: [0.05, 0.08]
+refinement_factors: [2, 4]
+calibration_sizes: [4, 8, 16, 24]
+heldout_samples: 48
+max_attempts_per_pool: 6000
+radius_families: 8
+matched_radii: [0.05, 0.065, 0.08]
+spatial_bandwidth: 0.15
+radius_bandwidth: 0.01
+top_fraction: 0.25
+effect_tolerance: 0.0000001

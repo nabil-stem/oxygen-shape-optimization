@@ -1,0 +1,98 @@
+{
+  "selected_arm": "g095_penalty",
+  "test_arms": [
+    "g095_penalty",
+    "g1_zero_prior_full"
+  ],
+  "validation_scores": [
+    {
+      "arm": "g095_penalty",
+      "runs": 20,
+      "expected_runs": 20,
+      "eligible": true,
+      "mean_normalized_fine_gain": 0.016279707637184133
+    },
+    {
+      "arm": "g095_zero",
+      "runs": 20,
+      "expected_runs": 20,
+      "eligible": true,
+      "mean_normalized_fine_gain": 0.014594032831453075
+    },
+    {
+      "arm": "g1_penalty",
+      "runs": 20,
+      "expected_runs": 20,
+      "eligible": true,
+      "mean_normalized_fine_gain": 0.012984033374652074
+    },
+    {
+      "arm": "g1_zero",
+      "runs": 20,
+      "expected_runs": 20,
+      "eligible": true,
+      "mean_normalized_fine_gain": 0.011005669127581228
+    },
+    {
+      "arm": "g1_zero_prior",
+      "runs": 20,
+      "expected_runs": 20,
+      "eligible": true,
+      "mean_normalized_fine_gain": 0.010169051525402734
+    },
+    {
+      "arm": "g1_zero_full",
+      "runs": 20,
+      "expected_runs": 20,
+      "eligible": true,
+      "mean_normalized_fine_gain": 0.007393963661796355
+    },
+    {
+      "arm": "g1_zero_prior_full",
+      "runs": 20,
+      "expected_runs": 20,
+      "eligible": true,
+      "mean_normalized_fine_gain": 0.008644969970137521
+    }
+  ],
+  "rule": "Highest complete-setting mean normalized n=400 validation gain; lexical tie within min_improvement",
+  "validation_records_digest": "8a1a4347f77c864c4dfa1fbc947b7b54028a8e2736886983f0dba9b477b19230",
+  "all_final_model_digests": {
+    "g095_penalty__150000": "5faa73914895504b7cbdb3da26e2bd5a0403f69b0ac2ee947ff998acbf93e591",
+    "g095_penalty__150001": "56241fed0a5fc9ea92a6bbaaecb8de8e604d0565192509ab3e62f02447d3ca81",
+    "g095_penalty__150002": "29988a14cf65d114042fc0ca2b01ea3f500ba1d3abdf8be649edcdb54d6e5bc9",
+    "g095_penalty__150003": "f5a36c6409a801215e471749a245ac611751ae83f7e70e29712596d36bc39935",
+    "g095_penalty__150004": "dea1c39a87ac0afa081aa2979f745263a03705c5feccf1b662ef8cdf13af0173",
+    "g095_zero__150000": "7e9aeb8ef1a60e57018d24e080239deb1a3cd0c9edfb56af97c118332304cc46",
+    "g095_zero__150001": "3b759d2f2c3bd7fae737c9d09fa1dad51c181fcee1a6e1c0791833fb0ed0293b",
+    "g095_zero__150002": "27f19451e022ed9740e9c2ff985044d6770b128a485a4da13204561065c7bc93",
+    "g095_zero__150003": "f7a5e24285788068c7ffc95ad683824b4ec6bec7500ea25e04993c36bf69562f",
+    "g095_zero__150004": "d2da547b62215740e12f1f4a661abb0c267ed97adef3de038119c544df86862c",
+    "g1_penalty__150000": "c3a030641da21e26fae95fc415dc740ae73fc9261e001ceb76b8a0a052d8215c",
+    "g1_penalty__150001": "e3b0b22b84a61962f96505b6fce124510716e798134df90c6c1c65bedc48dc3f",
+    "g1_penalty__150002": "d79e783dff0b44a33055ce391c05d6d47ef3464dd59a777e9a9a0eaf06944a32",
+    "g1_penalty__150003": "98dab66f9866af158f04f012a5bf39402b535f6d2d61257ce22f6b2e96cd25ba",
+    "g1_penalty__150004": "e049ab50dfdb12b7d9a5158a66d7a5b3d8265b42ef5037c6eba280fbfd87fb05",
+    "g1_zero__150000": "6f02277d9732cec52eb5b3f4501b47fef21fe9b99232e1e346b5b83ab88c5ee6",
+    "g1_zero__150001": "88c5683118267b6348b68a1cf0aa38cb2f6c7ca8e684d22634987bdf76e41297",
+    "g1_zero__150002": "bec830ecc3178a6c53a0108799516ea95bb2c0094dd3e536a14b8b36d08c47ba",
+    "g1_zero__150003": "e04723f6ba6e25219ea07d5f97bda1c2bf787b8abc7fdaed1bdd4c3dd485680d",
+    "g1_zero__150004": "c3f3cef2e20d7b3c67bfb6173555fa8cddfd3137480eae6324b6e248c5d7d2f3",
+    "g1_zero_prior__150000": "0c21d6aa523ac3685ae37fc813a2ff5929f4e8a05b8634d7053565ff1fff4c57",
+    "g1_zero_prior__150001": "e24295e5f1da508399c1039721656dfe6ab735502b09888adb7c7b955ca8f541",
+    "g1_zero_prior__150002": "3c25953a0ef55d5d6d358d08023dc0e236e18dbeaf8ff6ce8ee57a148e61c498",
+    "g1_zero_prior__150003": "2198e01c76fd3da57c0dd5d5334b74fe21edf8624ab538522b9331a95fa4ac5e",
+    "g1_zero_prior__150004": "c7b4794b16f56a9e2f2ad09645a653333098353723b484f8c204ec231342d245",
+    "g1_zero_full__150000": "f9efc500c7a1454877d12e948f0ea7232570c9b5757efc58f996f6a2c83904cc",
+    "g1_zero_full__150001": "79063b24cb058837a1cd910af041ba2c45a83c4eb5c7571cee734721061f13d4",
+    "g1_zero_full__150002": "aeed01c9efbc789158d86ed9033ee0db5b1e72a569f8ebcc5f8e1c71edf6dba4",
+    "g1_zero_full__150003": "0942da44c9788aef34df0ee842a0ae6dd9a8b6ce86097ab8ef66c4fb0d79e7cc",
+    "g1_zero_full__150004": "41956344efe0660cd01a0519c323439d6819f0188f1fbd7ee1fa0d2c0f0f3370",
+    "g1_zero_prior_full__150000": "60623d59f27c045f7b4c05a32e6bcb29dc1fcfbfd7876655ef1bb1128e67ef77",
+    "g1_zero_prior_full__150001": "459a2f8d50ed434ec5f42e6ce5b0b8c38eca19cfeea48391bbc91f24fc9eea1a",
+    "g1_zero_prior_full__150002": "406d3bc0b1cafd55f0b297cd2fca5c7680e91e03c9e519954d7bfcd4b48d1bac",
+    "g1_zero_prior_full__150003": "38985e04b63e5adc1f906b499274221e32d8df89893bf03934cef81af0d2a3f8",
+    "g1_zero_prior_full__150004": "4b19dbf194c0f394e3d149fee6a106b56c76a21273b18bd6bdfc9391d4135ff6"
+  },
+  "individual_replica_selection": false
+}
