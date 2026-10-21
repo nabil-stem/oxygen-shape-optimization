@@ -1,0 +1,24 @@
+--- scripts/conventional_study.py (executed)
++++ scripts/conventional_study.py (fixed)
+@@ -23,6 +23,7 @@
+ from oxygen_shape.experiments.reporting import create_run, provenance, write_csv
+ from oxygen_shape.geometry.research_families import make_research_geometry
+ from oxygen_shape.optimization.trajectory_search import TrajectoryConfig, _json
++from oxygen_shape.viz.history import gain_by_solve
+ from scripts.audit_conventional import audit_job
+ from scripts.conventional_search import run_classical
+ 
+@@ -135,12 +136,7 @@
+             curves = []
+             for job in group.to_dict("records"):
+                 history = pd.read_csv(root / job["path"] / "metrics.csv")
+-                curves.append(
+-                    pd.Series(
+-                        100 * (history.best_Q / history.best_Q.iloc[0] - 1),
+-                        index=history.pde_solves,
+-                    )
+-                )
++                curves.append(gain_by_solve(history))
+             values = pd.concat(curves, axis=1)
+             ax.plot(values.index, values.median(axis=1), label=method, color=colors[method])
+             ax.fill_between(

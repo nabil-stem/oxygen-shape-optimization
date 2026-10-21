@@ -1,0 +1,14 @@
+{
+  "citation_schema": "CFF 1.2.0",
+  "source": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.2.0/schema.json",
+  "valid": true,
+  "author": [
+    {
+      "family-names": "ES-SAADI",
+      "given-names": "Nabil",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "license": "MIT",
+  "doi_assigned": false
+}

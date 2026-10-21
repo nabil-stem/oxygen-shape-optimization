@@ -1,0 +1,13 @@
+{
+  "main": {
+    "status": "all frozen source hashes matched before post-run visualization fix",
+    "files": 92,
+    "manifest_sha256": "773344c3f93039ba57f8accca553c82de61cefb678959f1a97200d8eab74759d"
+  },
+  "classical": {
+    "status": "all frozen source hashes matched before post-run visualization fix",
+    "files": 7,
+    "manifest_sha256": "44615f05ec804e0b9a885ce36df01468dfd0b73a422d51137dd8de368a5d6433"
+  },
+  "reason": "Pandas Series data were label-reindexed against 1-based PDE counts, shifting curves and omitting their last value. No PDE/search result is changed."
+}

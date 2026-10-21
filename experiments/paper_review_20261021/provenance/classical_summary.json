@@ -1,0 +1,20 @@
+{
+  "new_search_PDE": 11610,
+  "new_FVM_validation": 360,
+  "new_FEM_validation": 360,
+  "new_training_PDE": 0,
+  "interrupted_attempts": 0,
+  "uncommitted_extra_PDE_lower": 0,
+  "uncommitted_extra_PDE_upper": 0,
+  "validation_scheduling": "Parent validates/audits completed jobs while workers continue",
+  "imported_comparison_endpoints": 135,
+  "added_endpoints": 90,
+  "incomplete_searches": 0,
+  "audit": {
+    "candidate_fields": 11610,
+    "maximum_conservation_error": 5.5000569782468094e-14,
+    "maximum_cell_residual": 2.7755575615628914e-15,
+    "additional_PDE_solves": 0
+  },
+  "source_study": "20261021T122626095890Z_morphology_98e4aafa"
+}

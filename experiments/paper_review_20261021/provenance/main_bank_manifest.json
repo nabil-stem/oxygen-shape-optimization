@@ -1,0 +1,322 @@
+{
+  "training": [
+    {
+      "family": "rectangle",
+      "seed": 310001,
+      "mask_sha256": "7329932aa973c0a18dfaa704d61e968990ebc593d96bbd71fe02e4b9bcc69c5d"
+    },
+    {
+      "family": "hexagon",
+      "seed": 310001,
+      "mask_sha256": "98a0c8af2783827d68b93bee0271439161254a606e7dae19ee4eca6d705adb8a"
+    },
+    {
+      "family": "koch_1",
+      "seed": 310001,
+      "mask_sha256": "37004bd63dfdca6add47977bb8dfe9e1ad86f55d6c624318ae2d5c3142731993"
+    },
+    {
+      "family": "koch_2",
+      "seed": 310001,
+      "mask_sha256": "3ee171f71dfa2cd2e02ea540a093264f3846f203be9dba28e6c555023c86c376"
+    },
+    {
+      "family": "dichotomous",
+      "seed": 310001,
+      "mask_sha256": "cbc4f4aff47e16aa31ead8b17b0cb9a111f505a6be2ff6e5724ca79a6fc2993b"
+    },
+    {
+      "family": "acinar_sacs",
+      "seed": 310001,
+      "mask_sha256": "a83651375f3237d0a12d320fdc5cc73598be34049a1e0eb1927e4acb8176c364"
+    },
+    {
+      "family": "asymmetric_sacs",
+      "seed": 310001,
+      "mask_sha256": "0ddaa8a5c0982c5c11560e170dfc0d34e5c0f449f87ee4c986e73e69960ec1ba"
+    }
+  ],
+  "evaluation": [
+    {
+      "family": "rectangle",
+      "index": 0,
+      "seed": 310101,
+      "mask_sha256": "945dd5290564257f10d74991048d6c8b6a52c80b886a8afaf4597500a12c1e86"
+    },
+    {
+      "family": "rectangle",
+      "index": 1,
+      "seed": 310102,
+      "mask_sha256": "d1cafd5f2f85ce0ec54c0734d813488ed5a9d3230a5253bcf16aeb0bfd77dadf"
+    },
+    {
+      "family": "rectangle",
+      "index": 2,
+      "seed": 310103,
+      "mask_sha256": "f58f4c10727971b4b6c8f47aad7ff9bb06e87477f33ac860993bdb693b926253"
+    },
+    {
+      "family": "rectangle",
+      "index": 3,
+      "seed": 310104,
+      "mask_sha256": "13654131b54120bc2e4d8d08f74e4994daed1f8b8f548b0e09a48297ee7a37f9"
+    },
+    {
+      "family": "rectangle",
+      "index": 4,
+      "seed": 310105,
+      "mask_sha256": "62ef943be192d5ac46838e04abd83948eb8d2f171e0059d6e0403dbc13c1d302"
+    },
+    {
+      "family": "hexagon",
+      "index": 0,
+      "seed": 310101,
+      "mask_sha256": "7084906667e3018f071b66559ed99e12e9c47f4d496832e921b87cfd6db29cdc"
+    },
+    {
+      "family": "hexagon",
+      "index": 1,
+      "seed": 310102,
+      "mask_sha256": "0d4ec65c4572f8eab353778d5178466a5e10f6a1cee9987abfb73874ecefbd67"
+    },
+    {
+      "family": "hexagon",
+      "index": 2,
+      "seed": 310103,
+      "mask_sha256": "bc443511012682bb587a7807fad578e1832666582ee0577f8db50380c2786c7e"
+    },
+    {
+      "family": "hexagon",
+      "index": 3,
+      "seed": 310104,
+      "mask_sha256": "e696040adada6cf3fa2653aecba04a9be1a63fb2ee3e0fda90337679443cf53f"
+    },
+    {
+      "family": "hexagon",
+      "index": 4,
+      "seed": 310105,
+      "mask_sha256": "89f6dd65590e1b1ad0521bff81394d30d5d8d5ce98411ff62d5da6850af0ca23"
+    },
+    {
+      "family": "koch_1",
+      "index": 0,
+      "seed": 310101,
+      "mask_sha256": "fe2fcabb7a873f5d9539a5e46043ebd058bbd6a91e518ff78318d8da1a44e4f0"
+    },
+    {
+      "family": "koch_1",
+      "index": 1,
+      "seed": 310102,
+      "mask_sha256": "c957df7b589670f8be1bc64011bf8beaafdf062fbf79db387eb3add8f5522b0f"
+    },
+    {
+      "family": "koch_1",
+      "index": 2,
+      "seed": 310103,
+      "mask_sha256": "3de2f3b6afd738698545a3f5b62660480885bb512c1ebbe047d26cb0524d8c5a"
+    },
+    {
+      "family": "koch_1",
+      "index": 3,
+      "seed": 311104,
+      "mask_sha256": "65add4ff8acffd5f3d0b46f661cd1f174c7ec10417b208e15f1f12b657936a9f"
+    },
+    {
+      "family": "koch_1",
+      "index": 4,
+      "seed": 310105,
+      "mask_sha256": "d719eee77432033ef4af380ae80ace4a39c32dae48f2e25ae4b6f659f7c2a63f"
+    },
+    {
+      "family": "koch_2",
+      "index": 0,
+      "seed": 310101,
+      "mask_sha256": "eb8ad666eb7fce734341b35611fc0a913000b250548c79dcfddb7f2a1c353432"
+    },
+    {
+      "family": "koch_2",
+      "index": 1,
+      "seed": 310102,
+      "mask_sha256": "5fdd4346abadce265761d1da2d3a0677868306384ae3c4605900a62b3eb037d8"
+    },
+    {
+      "family": "koch_2",
+      "index": 2,
+      "seed": 310103,
+      "mask_sha256": "a5344e97cebe89f8759971fa4690d0458050cf18ce578eeb30151464c975bc37"
+    },
+    {
+      "family": "koch_2",
+      "index": 3,
+      "seed": 310104,
+      "mask_sha256": "328a27c58b1e27692dba4aa21840775aa2f6f32c5bdc811ac5aaf797a5ea9dd8"
+    },
+    {
+      "family": "koch_2",
+      "index": 4,
+      "seed": 310105,
+      "mask_sha256": "6afe81efecfd419948442e0387bb4053a8ba5e22083a9551f5d8fe1a609189cf"
+    },
+    {
+      "family": "maze",
+      "index": 0,
+      "seed": 310101,
+      "mask_sha256": "5dd3292379af63df751f8d8e471df1a46f989c2e310166b388622acb011d796f"
+    },
+    {
+      "family": "maze",
+      "index": 1,
+      "seed": 310102,
+      "mask_sha256": "637223688b4ade5e7c36d532f71c1e756912a4756723f2cb7e3beae0ab5df92d"
+    },
+    {
+      "family": "maze",
+      "index": 2,
+      "seed": 310103,
+      "mask_sha256": "5fb1189cbba7f5737edf772a7295e1c719997fedc02a847e56ebce9b99bf3b83"
+    },
+    {
+      "family": "maze",
+      "index": 3,
+      "seed": 310104,
+      "mask_sha256": "055f05e2ece06df2915b04f946a2e08d5596eb728e7611b7f1bb2d2dc90800cd"
+    },
+    {
+      "family": "maze",
+      "index": 4,
+      "seed": 310105,
+      "mask_sha256": "18e9909be455c40f1cf2b90ea5e07c7ee678e926fbfbeccb61fb898db5ea9394"
+    },
+    {
+      "family": "dichotomous",
+      "index": 0,
+      "seed": 310101,
+      "mask_sha256": "6d3634387f7097511f5606d2c1847477cac761983134b734ba344a88e130b404"
+    },
+    {
+      "family": "dichotomous",
+      "index": 1,
+      "seed": 310102,
+      "mask_sha256": "ae44d65a5383f09d44318083495f828fa829316fe5b6f9783eab09adc841dea9"
+    },
+    {
+      "family": "dichotomous",
+      "index": 2,
+      "seed": 310103,
+      "mask_sha256": "694c859f88babba8503a59042ac85ca95c8cc181ea2f41d24ffe947139032483"
+    },
+    {
+      "family": "dichotomous",
+      "index": 3,
+      "seed": 310104,
+      "mask_sha256": "4a1ec998281b6ebfa4cee7abaa9daae92e49503072d85912e452e39ddae1e396"
+    },
+    {
+      "family": "dichotomous",
+      "index": 4,
+      "seed": 310105,
+      "mask_sha256": "337f8c29d822cf7448880ab110121e7b9de5547558949d1f22b483f542c2b2c2"
+    },
+    {
+      "family": "acinar_sacs",
+      "index": 0,
+      "seed": 310101,
+      "mask_sha256": "123cf5b40ecabba55ad18215008dbbc3f279254d1ffe89ed025cbae7086265cc"
+    },
+    {
+      "family": "acinar_sacs",
+      "index": 1,
+      "seed": 310102,
+      "mask_sha256": "65947d2c1bbc4d838402f2e914a4ad2da3ccc86e7419b3022f903ff454afd318"
+    },
+    {
+      "family": "acinar_sacs",
+      "index": 2,
+      "seed": 310103,
+      "mask_sha256": "d499ce8266c14529010bbd9410ea26c582fd4f26d88d6036870a3cf745bdafa5"
+    },
+    {
+      "family": "acinar_sacs",
+      "index": 3,
+      "seed": 310104,
+      "mask_sha256": "b7c09cb2eab7acb2c187f278a0901077b8f9107a6d1a06ce6ee38cdf5bfd52b0"
+    },
+    {
+      "family": "acinar_sacs",
+      "index": 4,
+      "seed": 310105,
+      "mask_sha256": "346a4515ed0bd68b62d9ee31b767e5d72475ed01658197e714e0058296f829fb"
+    },
+    {
+      "family": "asymmetric_sacs",
+      "index": 0,
+      "seed": 310101,
+      "mask_sha256": "d74e1e95b099887e21b8bc645892bedae7724ba6b35e66a8ebe510f1c0b0ed26"
+    },
+    {
+      "family": "asymmetric_sacs",
+      "index": 1,
+      "seed": 310102,
+      "mask_sha256": "ce4eef08bc459a0132517c268907e69eac73ff11eb8cbd249397dd6d5653048e"
+    },
+    {
+      "family": "asymmetric_sacs",
+      "index": 2,
+      "seed": 310103,
+      "mask_sha256": "8fc7f6a862c2c342f4675d3979927b9b79aab489a932e079e740230985b18070"
+    },
+    {
+      "family": "asymmetric_sacs",
+      "index": 3,
+      "seed": 310104,
+      "mask_sha256": "f139feb1e53f32e2fc9ed79110e45f09c2542ed948bacb56a669cec155a46cb6"
+    },
+    {
+      "family": "asymmetric_sacs",
+      "index": 4,
+      "seed": 310105,
+      "mask_sha256": "8ee641494a8a4d7ad5c16f89b2bcc7dea5a1af6c62ffb44aafc9a34defca6543"
+    },
+    {
+      "family": "hilbert_2",
+      "index": 0,
+      "seed": 310101,
+      "mask_sha256": "bc655be1182060e0f8d4f1e5db0cd229b83eff0263400b9ffe344b12f0b07a06"
+    },
+    {
+      "family": "hilbert_2",
+      "index": 1,
+      "seed": 310102,
+      "mask_sha256": "76cf28ac5c454bd2ec6e82adf0ada6646e0c860dee7e05704d23aba2732506bf"
+    },
+    {
+      "family": "hilbert_2",
+      "index": 2,
+      "seed": 310103,
+      "mask_sha256": "8f81a617233f5df9f72c5b4e909ca1973579f8434197e5b84531d2014e29c0c0"
+    },
+    {
+      "family": "hilbert_2",
+      "index": 3,
+      "seed": 310104,
+      "mask_sha256": "444f9fc0f8299f22fec328456ae52608038e258b5f06804e1aedd6b9028a141d"
+    },
+    {
+      "family": "hilbert_2",
+      "index": 4,
+      "seed": 310105,
+      "mask_sha256": "425c107ba304afea8e8893e80ca119d12efad3d6d412c9fba30f7b3449e487ca"
+    }
+  ],
+  "rejections": [
+    {
+      "family": "koch_1",
+      "index": 3,
+      "seed": 310104,
+      "reason": "Feature check at factor 2: Thin appendage exceeds minimum-feature residual allowance"
+    }
+  ],
+  "selection_rule": "Geometry validity and identity only; no PDE outcome is read",
+  "evaluation_distinct_masks": 45,
+  "training_evaluation_mask_overlap": 0
+}

@@ -1,0 +1,109 @@
+{
+  "cases": 14,
+  "additional_FVM_solves": 254,
+  "additional_FEM_solves": 56,
+  "reused_main_FVM_fields": 82,
+  "reused_main_FEM_fields": 28,
+  "FVM_evaluations": 336,
+  "FEM_evaluations": 84,
+  "search_PDE_solves": 0,
+  "initial_family_comparisons": [
+    {
+      "Bi": 0.1,
+      "collar": 0.0,
+      "best_case": "initial_dichotomous",
+      "minimum_Q": 0.12944419670040436,
+      "maximum_Q": 0.1945065973253841,
+      "relative_spread_percent": 33.449971116475226
+    },
+    {
+      "Bi": 0.1,
+      "collar": 0.06,
+      "best_case": "initial_dichotomous",
+      "minimum_Q": 0.11831718661427074,
+      "maximum_Q": 0.1838199718535058,
+      "relative_spread_percent": 35.63420480307608
+    },
+    {
+      "Bi": 0.1,
+      "collar": 0.12,
+      "best_case": "initial_dichotomous",
+      "minimum_Q": 0.10864150946267492,
+      "maximum_Q": 0.17537896723562302,
+      "relative_spread_percent": 38.0532847381213
+    },
+    {
+      "Bi": 1.0,
+      "collar": 0.0,
+      "best_case": "initial_rectangle",
+      "minimum_Q": 0.4367193191865204,
+      "maximum_Q": 0.492772018710221,
+      "relative_spread_percent": 11.374976134077716
+    },
+    {
+      "Bi": 1.0,
+      "collar": 0.06,
+      "best_case": "initial_rectangle",
+      "minimum_Q": 0.34282521195644133,
+      "maximum_Q": 0.40232672284945853,
+      "relative_spread_percent": 14.789350921460244
+    },
+    {
+      "Bi": 1.0,
+      "collar": 0.12,
+      "best_case": "initial_rectangle",
+      "minimum_Q": 0.2806904372672905,
+      "maximum_Q": 0.3498844326800621,
+      "relative_spread_percent": 19.776242939063053
+    },
+    {
+      "Bi": 10.0,
+      "collar": 0.0,
+      "best_case": "initial_rectangle",
+      "minimum_Q": 1.3329164330832124,
+      "maximum_Q": 1.3375929930064498,
+      "relative_spread_percent": 0.34962503150724156
+    },
+    {
+      "Bi": 10.0,
+      "collar": 0.06,
+      "best_case": "initial_rectangle",
+      "minimum_Q": 0.7377869655175502,
+      "maximum_Q": 0.7448219732307917,
+      "relative_spread_percent": 0.9445220423245523
+    },
+    {
+      "Bi": 10.0,
+      "collar": 0.12,
+      "best_case": "initial_rectangle",
+      "minimum_Q": 0.5127982540875768,
+      "maximum_Q": 0.5317760038985777,
+      "relative_spread_percent": 3.5687488100009066
+    },
+    {
+      "Bi": 100.0,
+      "collar": 0.0,
+      "best_case": "initial_hilbert_2",
+      "minimum_Q": 3.270723503155879,
+      "maximum_Q": 3.271195173001546,
+      "relative_spread_percent": 0.01441888425245672
+    },
+    {
+      "Bi": 100.0,
+      "collar": 0.06,
+      "best_case": "initial_hilbert_2",
+      "minimum_Q": 1.0693078071490616,
+      "maximum_Q": 1.0708383033889852,
+      "relative_spread_percent": 0.1429250555457271
+    },
+    {
+      "Bi": 100.0,
+      "collar": 0.12,
+      "best_case": "initial_hilbert_2",
+      "minimum_Q": 0.6395311453988399,
+      "maximum_Q": 0.6549196687182892,
+      "relative_spread_percent": 2.3496810455495103
+    }
+  ],
+  "interpretation": "Fixed-geometry boundary-condition sensitivity; no reoptimization or anatomical calibration"
+}

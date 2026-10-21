@@ -1,0 +1,24 @@
+--- src/oxygen_shape/experiments/morphology_report.py (executed)
++++ src/oxygen_shape/experiments/morphology_report.py (fixed)
+@@ -17,6 +17,7 @@
+ from oxygen_shape.geometry.raster import OFFSETS, refine_geometry
+ from oxygen_shape.geometry.research_families import make_research_geometry
+ from oxygen_shape.optimization.trajectory_search import _json
++from oxygen_shape.viz.history import gain_by_solve
+ 
+ COLORS = {
+     "flux_greedy": "tab:blue",
+@@ -81,12 +82,7 @@
+                 curves = []
+                 for job in jobs.to_dict("records"):
+                     history = pd.read_csv(root / job["path"] / "metrics.csv")
+-                    curves.append(
+-                        pd.Series(
+-                            100 * (history.best_Q / history.best_Q.iloc[0] - 1),
+-                            index=history.pde_solves,
+-                        )
+-                    )
++                    curves.append(gain_by_solve(history))
+                 if not curves:
+                     continue
+                 values = pd.concat(curves, axis=1)

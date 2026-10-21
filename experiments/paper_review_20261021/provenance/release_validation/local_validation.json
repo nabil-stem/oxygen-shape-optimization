@@ -1,0 +1,16 @@
+{
+  "full_regression": {
+    "tests": 324,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "reported_wall_seconds": 291.98
+  },
+  "frozen_source_files_verified": 210,
+  "changed_during_gate": [],
+  "first_attempt": "323 passed, 1 refused resume after author metadata edit during testing; retained",
+  "isolated_resume_recheck": "1 passed in 36.82 seconds",
+  "wheel": "isolated declared-backend build passed; non-isolated local backend lacked wheel",
+  "additional_production_solver_calls": 0,
+  "scope": "Regression performs its own small tests; no primary production rerun"
+}

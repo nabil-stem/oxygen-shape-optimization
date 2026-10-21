@@ -1,0 +1,9 @@
+{
+  "scripts/conventional_search.py": "fe4376bb47a7ed5d328acc7f3b2fe34d2c5088fb3a2baca1da40f72f184d089f",
+  "scripts/conventional_study.py": "332cd1c52890d0ec9fe6b7e9756632b9cc669befbad67d128bbeae3212d19dc8",
+  "scripts/audit_conventional.py": "19429de989bb989b433d78dbddadb6fed5ff855743b3fc615fefca03f115cf93",
+  "scripts/audit_morphology_journals.py": "294bd0cbd90112199d3246502db53fd9d1c93a794d7dfd89ff1d3e53408c79f6",
+  "scripts/postprocess_morphology_bounds.py": "759c822ccaf924016404e04f852fe063e13e8a4269fed4c4f4406cd4dfde08b6",
+  "scripts/flux_energy_bounds.py": "508709c8f771508ed4740e59fc5fa20b54510c2aa74780a5f56b6c796967986a",
+  "docs/classical_control_protocol.md": "470ab023dccd3e8aa54d0f33a5d1b254b2d74288c07f308713375dd27ceaddff"
+}

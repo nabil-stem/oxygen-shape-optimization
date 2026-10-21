@@ -1,0 +1,86 @@
+seed: 330000
+output_root: C:\Users\NABIL\OneDrive\Documents\projects\Biomed\Proba Approach\Antigravity
+  RL method\experiments
+solver:
+  conservation_rtol: 1.0e-09
+  conservation_atol: 1.0e-12
+  residual_tolerance: 1.0e-10
+  bounds_tolerance: 1.0e-10
+model:
+  Bi: 1.0
+n: 100
+initial_shape: deep_cavity
+target_area: 0.24
+perimeter_limit: 8.0
+minimum_feature_width: 0.04
+protected_length: 0.12
+radii:
+- 0.03
+- 0.075
+solve_budget: 129
+max_attempts_per_solve: 30
+min_improvement: 1.0e-07
+policy_stall_limit: 50
+refinement_factors:
+- 2
+- 4
+batch_size: 8
+probe_count: 4
+epsilon_uniform: 0.25
+kernel_bandwidth: 0.15
+raw_draw_budget: 500000
+pool_size: 4
+refill_draw_limit: 96
+evaluation_seeds:
+- 320000
+- 320001
+- 320002
+- 320003
+- 320004
+exploration: 0.2
+uncertainty: 0.03
+temperature_start: 0.003
+temperature_end: 2.0e-05
+restart_interval: 256
+perimeter_band: null
+cell_move_probability: 0.25
+families:
+- rectangle
+- hexagon
+- koch_1
+- koch_2
+- maze
+- dichotomous
+- acinar_sacs
+- asymmetric_sacs
+- hilbert_2
+training_families:
+- rectangle
+- hexagon
+- koch_1
+- koch_2
+- dichotomous
+- acinar_sacs
+- asymmetric_sacs
+methods:
+- flux_greedy
+- flux_anneal
+- learned_anneal
+training_bank_seed: 310001
+evaluation_bank_seed: 310101
+training_solve_budget: 65
+deep_family: acinar_sacs
+deep_solve_budget: 1025
+perimeter_control_families:
+- rectangle
+- hexagon
+- acinar_sacs
+perimeter_control_budget: 65
+permeabilities:
+- 0.01
+- 0.1
+- 1.0
+- 10.0
+- 100.0
+counterfactual_pools: 5
+workers: 2

@@ -1,0 +1,61 @@
+{
+  "scope": "Post-run presentation correction only; zero new PDE solves",
+  "reason": "Pandas Series data were label-reindexed against 1-based PDE counts, shifting curves and omitting their last value. No PDE/search result is changed.",
+  "numerical_tables_and_histories": "hash-verified unchanged",
+  "source_changes": [
+    {
+      "path": "src/oxygen_shape/experiments/morphology_report.py",
+      "old_sha256": "c2d51e87cc9fdd562f5ebbed01c38069608211f737423767c0dfcf40848f8367",
+      "current_sha256": "dd5db372a104025d1e310db00105ab4ca125340a9898d7a278d4e722b0e22809"
+    },
+    {
+      "path": "scripts/conventional_study.py",
+      "old_sha256": "332cd1c52890d0ec9fe6b7e9756632b9cc669befbad67d128bbeae3212d19dc8",
+      "current_sha256": "4a3b6e4cd8ec63df722d7831a57af5f2334dd219a4c3d1c4e10ca6853e6e059c"
+    },
+    {
+      "path": "src/oxygen_shape/viz/history.py",
+      "old_sha256": null,
+      "current_sha256": "d405508fff40985a0c98653f0be1caf1d02f4a88479554b99606107224bfb5b9"
+    }
+  ],
+  "plot_changes": [
+    {
+      "target": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261021T122626095890Z_morphology_98e4aafa\\figures\\comparison_curves.png",
+      "corrected_sha256": "fa64326cc308b4d47a396df2de2a21ea78c8583d63d92da96e3cdcedbfdaa3c1",
+      "preserved_original": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\paper_review_20261021\\post_run_curve_fix\\original_figures\\main_comparison.png",
+      "original_sha256": "2eb65bda2aca2917d1f5c8c9432387d28568f01930fe8b635c3cde1e3a25dd43"
+    },
+    {
+      "target": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261021T122626095890Z_morphology_98e4aafa\\figures\\comparison_curves.pdf",
+      "corrected_sha256": "0d9865b7a6b94f383613d73d502ac7be7c5d05e9f64730c14537f0510c7f296e",
+      "preserved_original": null,
+      "original_sha256": null
+    },
+    {
+      "target": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261021T122626095890Z_morphology_98e4aafa\\figures\\long_horizon_curves.png",
+      "corrected_sha256": "bc9304bbaa6a2d4f67022b4ca6d1cf8ee3c2794dc6a83883d27eb6fb6c4afa86",
+      "preserved_original": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\paper_review_20261021\\post_run_curve_fix\\original_figures\\main_deep.png",
+      "original_sha256": "b67d32c75980db6aad8b9e0474df83c87b66b1c4b662860020d6c0634b4121a8"
+    },
+    {
+      "target": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261021T122626095890Z_morphology_98e4aafa\\figures\\long_horizon_curves.pdf",
+      "corrected_sha256": "bc4829146ce41f1fd8381e90d6259f0bbba4ca4b7da09ee4817d38758d94612a",
+      "preserved_original": null,
+      "original_sha256": null
+    },
+    {
+      "target": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261021T141950978652Z_classical_72101312\\figures\\algorithm_curves.png",
+      "corrected_sha256": "9a54141475893a3da560cf1c97b99366cb25cfeae10de7d1adfb938275617fd5",
+      "preserved_original": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\paper_review_20261021\\post_run_curve_fix\\original_figures\\classical_comparison.png",
+      "original_sha256": "05c195d0294b00e5d2ec54ba2d2450a71ec74080cf1d3d0d41dc97f79cbfa11b"
+    },
+    {
+      "target": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\20261021T141950978652Z_classical_72101312\\figures\\algorithm_curves.pdf",
+      "corrected_sha256": "4054478a3bd0c8fee728765ab125db80a6fd3d7fa58e1a6fd3c835519260cb8b",
+      "preserved_original": "C:\\Users\\NABIL\\OneDrive\\Documents\\projects\\Biomed\\Proba Approach\\Antigravity RL method\\experiments\\paper_review_20261021\\post_run_curve_fix\\original_figures\\classical_comparison.pdf",
+      "original_sha256": "864f71fee95bcedded43adb688297d487b54bd65330cbdd1a97c9645a9fe84a5"
+    }
+  ],
+  "historical_replay": "Use each experiment's archived executed sources; current plotting code is corrected"
+}
