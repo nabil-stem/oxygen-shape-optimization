@@ -85,3 +85,56 @@ and later documentation changes are not retroactive production provenance.
 
 The exact installed production environment is recorded with the release.
 Cross-platform bitwise rerunning of the full search matrix is not promised.
+
+## Square-island extension
+
+This later experiment has a [separate protocol](square_holes_protocol.md),
+[result report](../paper/square_holes/README.md) and
+[dated evidence release](https://github.com/nabil-stem/oxygen-shape-optimization/releases/tag/square-holes-20261022).
+Download every numbered extension ZIP and its release_manifest.json. Verify
+and extract to a new directory using the standalone verifier, as above.
+The completed study is under `oxygen_shape_release/experiments/`; the failed
+attempt is separately labeled `interrupted_attempt/`. Byte verification of the
+failed attempt does not make its damaged numerical ledger usable.
+
+From the extracted checkout, audit all successful stored fields without a PDE
+solve and recreate the portable result tables in a new output directory:
+
+```text
+python scripts/audit_square_holes.py PATH_TO_COMPLETED_RUN audit.json
+python scripts/curate_square_holes.py PATH_TO_COMPLETED_RUN NEW_PUBLIC_FOLDER
+```
+
+The auditor independently recomputes FVM face balances and FEM element/edge
+balances, boundary classifications, energy, source uptake, geometry and source
+hashes. It requires NumPy and SciPy but neither imports nor invokes a PDE solver.
+The curator preserves original figure/table bytes and derives endpoint resource
+comparisons and refined pair interactions. Its scope is the declared 100/200/400
+study. It does not create missing numerical evidence.
+
+Regenerate plots on an extracted copy, from saved results only:
+
+```text
+python -c "from pathlib import Path; from oxygen_shape.experiments.holes_report import write_holes_report; write_holes_report(Path('PATH_TO_COMPLETED_RUN'))"
+```
+
+Do not point regeneration at the sole original evidence copy. Full `study-holes
+--resume` also replays trial histories and checks configuration/source/cache
+identities. Its frozen serialized configuration includes the original output
+path; cross-platform path serialization can therefore prevent a full historical
+resume. The saved-field auditor, report renderer and curator use explicit input
+paths and avoid that historical path dependency. Use the archived numerical
+source snapshot for any historical continuation, without weakening guards.
+
+To execute the full protocol afresh:
+
+```text
+python -m oxygen_shape.cli study-holes --config configs/square_holes.yaml
+```
+
+The completed production sources are frozen at commit `d830114`; subsequent
+audit/reporting scripts are separately identified by the release reporting
+commit. The earlier interrupted attempt was preserved rather than repaired;
+the fresh execution changed only its output folder to local storage outside
+the synchronized workspace. Ledger corruption prevents recovering its solve
+cost, which remains additional unknown work outside the fresh-run totals.

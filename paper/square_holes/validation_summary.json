@@ -1,0 +1,176 @@
+{
+  "numerical_source_commit": "d830114cd33405c5926ee4683518a37b8089b5d9",
+  "audit_reporting_code_commit": "6d612ea1e4bef953fd937b321913f1f40a64286e",
+  "ci_url": "https://github.com/nabil-stem/oxygen-shape-optimization/actions/runs/39737994635",
+  "tests": {
+    "local": {
+      "tests": "344",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "time": "347.584"
+    },
+    "windows": {
+      "tests": "344",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "time": "394.067"
+    },
+    "ubuntu": {
+      "tests": "344",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "time": "250.941"
+    }
+  },
+  "ruff": "Passed: src, tests, audit and curator scripts",
+  "complete_run_summary": {
+    "status": "complete",
+    "seed": 410000,
+    "n": 100,
+    "scope": "Square excluded islands; no anatomical optimality or RL claim",
+    "position_cases": 840,
+    "controlled_layouts": 13,
+    "search_runs": 10,
+    "validation_rows": 340,
+    "committed_fvm_solves": 3493,
+    "committed_fem_solves": 418,
+    "this_invocation_new_solves": 3911,
+    "possible_uncommitted_solve_upper_bound": 0
+  },
+  "independent_saved_field_audit": {
+    "fvm_fields": 3493,
+    "fem_fields": 418,
+    "max_fvm_residual": 5.662137425588298e-15,
+    "max_fem_residual": 5.350419136603349e-15,
+    "max_flux_conservation_error": 6.873192631161652e-11,
+    "max_fem_energy_error": 2.453592884421596e-14,
+    "new_pde_solves": 0
+  },
+  "separate_folder_replay": {
+    "new_pde_solves": 0,
+    "csv_files": {
+      "interactions.csv": {
+        "byte_identical": true,
+        "rows": 10
+      },
+      "layout_metrics.csv": {
+        "byte_identical": false,
+        "rows": 65
+      },
+      "per_hole_flux.csv": {
+        "byte_identical": false,
+        "rows": 1095
+      },
+      "position_maps.csv": {
+        "byte_identical": false,
+        "rows": 840
+      },
+      "roster_summary.csv": {
+        "byte_identical": true,
+        "rows": 10
+      },
+      "search_summary.csv": {
+        "byte_identical": true,
+        "rows": 10
+      },
+      "validation.csv": {
+        "byte_identical": false,
+        "rows": 340
+      }
+    },
+    "maximum_numeric_csv_difference": 1.3322676295501878e-15,
+    "absolute_csv_tolerance": 1e-13,
+    "png_files": {
+      "hole_effects.png": {
+        "byte_identical": true,
+        "sha256": "23b30949a834dacc941c9c9b816b3223f2b8f71165746fb141be4a1ade77e1b2"
+      },
+      "hole_relocation.png": {
+        "byte_identical": true,
+        "sha256": "77c1a6f376a09fd30c2878bb785e455515762c4181db59a87f4b7da919e893fa"
+      },
+      "square_fields_linear.png": {
+        "byte_identical": true,
+        "sha256": "0c4ac9007f8d2e79a426e1647ac82332d1d539e9f421f6e2da9ed5f2def84544"
+      },
+      "square_fields_power.png": {
+        "byte_identical": true,
+        "sha256": "c3460e59d0ec53866c6282435d6cd1fe2dd4867cef322b92201a55cedc461889"
+      },
+      "square_position_maps.png": {
+        "byte_identical": true,
+        "sha256": "46551f445e25e38f863047d3379a628e365f7a3494e03ded06413ed295570485"
+      }
+    },
+    "vector_pdf_files_regenerated": 5,
+    "source_guard_passed": true,
+    "note": "Complete resume runs on extracted copy only. Tiny face-flux partition rounding may differ; original evidence is unchanged."
+  },
+  "derived_table_replay": {
+    "new_pde_solves": 0,
+    "tables": {
+      "endpoint_refinement.csv": {
+        "rows": 10,
+        "byte_identical": true
+      },
+      "interactions.csv": {
+        "rows": 10,
+        "byte_identical": true
+      },
+      "layout_metrics.csv": {
+        "rows": 65,
+        "byte_identical": false
+      },
+      "pair_refinement.csv": {
+        "rows": 24,
+        "byte_identical": true
+      },
+      "per_hole_flux.csv": {
+        "rows": 1095,
+        "byte_identical": false
+      },
+      "position_gain_ranges.csv": {
+        "rows": 30,
+        "byte_identical": true
+      },
+      "position_maps.csv": {
+        "rows": 840,
+        "byte_identical": false
+      },
+      "roster_summary.csv": {
+        "rows": 10,
+        "byte_identical": true
+      },
+      "search_summary.csv": {
+        "rows": 10,
+        "byte_identical": true
+      },
+      "validation.csv": {
+        "rows": 340,
+        "byte_identical": false
+      }
+    },
+    "maximum_numeric_difference": 1.3322676295501878e-15,
+    "absolute_tolerance": 1e-13,
+    "endpoint_coordinates_byte_identical": true,
+    "note": "Curator imports only data/plot libraries; uses the independently relocated, solver-disabled replay copy"
+  },
+  "historical_release_unchanged": {
+    "tag": "v0.1.0",
+    "commit": "1dae1b3cef4cae82b9bc044cd0ff077f85336a13",
+    "assets": 12,
+    "checked_fields": [
+      "id",
+      "name",
+      "size",
+      "digest"
+    ]
+  },
+  "additional_interrupted_attempt_cost": "Unknown; not included in completed-run totals",
+  "preliminary_relocation_failure": "A nested LocalAppData copy failed a cache-file lookup after Windows app path canonicalization; the check was repeated at a shorter profile-root path, preserving the original run",
+  "replay_preparation": "Filesystem copy, not ZIP extraction; the replay helper uses extracted generically for its input checkout. Archive byte verification is a separate check",
+  "relocation_scope": "Windows separate-folder copy; solver entry points disabled. Archive hashes subsequently verify the packaged bytes."
+}

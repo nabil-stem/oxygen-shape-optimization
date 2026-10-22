@@ -1,0 +1,11 @@
+family,width,eligible,rejected,status
+maze_chamber,0.04,56,113,eligible
+maze_chamber,0.08,49,95,eligible
+rectangle,0.04,21,148,eligible
+rectangle,0.08,12,132,eligible
+hexagon,0.04,18,151,eligible
+hexagon,0.08,12,132,eligible
+acinar_sacs,0.04,0,169,no_fit
+acinar_sacs,0.08,0,144,no_fit
+maze,0.04,0,169,no_fit
+maze,0.08,0,144,no_fit

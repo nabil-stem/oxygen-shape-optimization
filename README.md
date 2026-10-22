@@ -17,6 +17,7 @@ advantage for the tested ranker, a global optimum or natural-acinar optimality.
 - [Manuscript](docs/manuscript_draft.md) and [technical supplement](docs/manuscript_supplement.md).
 - [Figures and numerical tables](paper/README.md), including all 285 returned endpoints.
 - [v0.1.0 release](https://github.com/nabil-stem/oxygen-shape-optimization/releases/tag/v0.1.0): complete primary data, executed source versions, validation records and per-file hashes.
+- [Square-island results](paper/square_holes/README.md): a separate controlled study of empty squares, wall activation, position maps and resource-matched relocation.
 - [Reproduction instructions](docs/reproducibility.md) and [scientific limitations](docs/morphology_limits.md).
 
 The released study accounts for 50,721 production solver calls. Its 324-test
@@ -61,6 +62,9 @@ see [reproducibility](docs/reproducibility.md) for the full study commands.
 The [square-island extension](docs/square_holes_protocol.md) compares maze-like
 domains with empty squares, paired reflecting/reactive walls and fixed-resource
 square relocation. This is a separate experiment from the hole-free v0.1.0 data.
+Its [report](paper/square_holes/README.md) distinguishes added membrane from
+improvements obtained by moving the same six squares, and includes independent
+FEM checks and saved-field audits. Neither relocation heuristic is an RL policy.
 
 ## Validate and contribute
 

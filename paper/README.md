@@ -22,3 +22,8 @@ The benchmark includes 285 returned endpoints. The tested response ranker has
 no aggregate advantage over flux guidance. Two leading masks have overlapping
 practical flux ranges; the selected high-Q design is not a global or anatomical
 optimum. See the [claim review](../docs/claim_evidence_review.md).
+
+The later [square-island extension](square_holes/README.md) has its own figures,
+tables, constraints and evidence release. Its larger chamber and additional inner
+membrane differ from the resources in the primary benchmark; raw fluxes from
+the two studies are not a resource-matched ranking.

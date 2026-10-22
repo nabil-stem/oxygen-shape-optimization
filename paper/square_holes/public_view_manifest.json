@@ -1,0 +1,165 @@
+{
+  "numerical_source_commit": "d830114cd33405c5926ee4683518a37b8089b5d9",
+  "run": "20261022T065141721233Z_square_holes_9f15d628",
+  "source_release": "https://github.com/nabil-stem/oxygen-shape-optimization/releases/tag/square-holes-20261022",
+  "numerical_values_changed": false,
+  "figure_bytes_changed": false,
+  "files": {
+    "tables/interactions.csv": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/interactions.csv",
+      "source_sha256": "db6e494478cefed69077a3f803e5fb9fefd6db5250e9441546df44bfdd15a71c",
+      "view_sha256": "db6e494478cefed69077a3f803e5fb9fefd6db5250e9441546df44bfdd15a71c",
+      "transformations": []
+    },
+    "tables/layout_metrics.csv": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/layout_metrics.csv",
+      "source_sha256": "4caf3607893a19aeda3a5a490f765e5988aba421c232d0dc74a6ee6495951933",
+      "view_sha256": "4caf3607893a19aeda3a5a490f765e5988aba421c232d0dc74a6ee6495951933",
+      "transformations": []
+    },
+    "tables/per_hole_flux.csv": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/per_hole_flux.csv",
+      "source_sha256": "52a5041ecae5b9f2884c9a3fc8ce6b4c9c026c3d4cbc875b93436f12197f7766",
+      "view_sha256": "52a5041ecae5b9f2884c9a3fc8ce6b4c9c026c3d4cbc875b93436f12197f7766",
+      "transformations": []
+    },
+    "tables/position_maps.csv": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/position_maps.csv",
+      "source_sha256": "38cb321a104efb864fbfcedbf4ae8d55d889a244228ecbe0784fcb166f3fe6c3",
+      "view_sha256": "38cb321a104efb864fbfcedbf4ae8d55d889a244228ecbe0784fcb166f3fe6c3",
+      "transformations": []
+    },
+    "tables/roster_summary.csv": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/roster_summary.csv",
+      "source_sha256": "c4e9bf49653bdbf65937fbe8ec1e1fe144c9969ec980cc8f07625a6daad9581d",
+      "view_sha256": "c4e9bf49653bdbf65937fbe8ec1e1fe144c9969ec980cc8f07625a6daad9581d",
+      "transformations": []
+    },
+    "tables/search_summary.csv": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/search_summary.csv",
+      "source_sha256": "e01c34f7a2d1db9e34bb5f907b7211ec093fb22884f72cfcb48ce32c25489393",
+      "view_sha256": "e01c34f7a2d1db9e34bb5f907b7211ec093fb22884f72cfcb48ce32c25489393",
+      "transformations": []
+    },
+    "tables/validation.csv": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/validation.csv",
+      "source_sha256": "18e29c9b98f2aa44ab54200ffbfe7540f8d0904df2239deb37fe75465002bf82",
+      "view_sha256": "18e29c9b98f2aa44ab54200ffbfe7540f8d0904df2239deb37fe75465002bf82",
+      "transformations": []
+    },
+    "figures/hole_effects.pdf": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/figures/hole_effects.pdf",
+      "source_sha256": "21280f08d741a0d95e5c489fe3aba35342ec991f10a2d8125a72518727f765e3",
+      "view_sha256": "21280f08d741a0d95e5c489fe3aba35342ec991f10a2d8125a72518727f765e3",
+      "transformations": []
+    },
+    "figures/hole_effects.png": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/figures/hole_effects.png",
+      "source_sha256": "23b30949a834dacc941c9c9b816b3223f2b8f71165746fb141be4a1ade77e1b2",
+      "view_sha256": "23b30949a834dacc941c9c9b816b3223f2b8f71165746fb141be4a1ade77e1b2",
+      "transformations": []
+    },
+    "figures/hole_relocation.pdf": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/figures/hole_relocation.pdf",
+      "source_sha256": "786a3513ae619d79faf2a3a7bf39657d0c5d3632b3a7d5a032c70a2cea2870d3",
+      "view_sha256": "786a3513ae619d79faf2a3a7bf39657d0c5d3632b3a7d5a032c70a2cea2870d3",
+      "transformations": []
+    },
+    "figures/hole_relocation.png": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/figures/hole_relocation.png",
+      "source_sha256": "77c1a6f376a09fd30c2878bb785e455515762c4181db59a87f4b7da919e893fa",
+      "view_sha256": "77c1a6f376a09fd30c2878bb785e455515762c4181db59a87f4b7da919e893fa",
+      "transformations": []
+    },
+    "figures/square_fields_linear.pdf": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/figures/square_fields_linear.pdf",
+      "source_sha256": "6fc2c7eda0768a59781743bf9e92791b54a783f3b4ffa2a6cc850900963f22ab",
+      "view_sha256": "6fc2c7eda0768a59781743bf9e92791b54a783f3b4ffa2a6cc850900963f22ab",
+      "transformations": []
+    },
+    "figures/square_fields_linear.png": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/figures/square_fields_linear.png",
+      "source_sha256": "0c4ac9007f8d2e79a426e1647ac82332d1d539e9f421f6e2da9ed5f2def84544",
+      "view_sha256": "0c4ac9007f8d2e79a426e1647ac82332d1d539e9f421f6e2da9ed5f2def84544",
+      "transformations": []
+    },
+    "figures/square_fields_power.pdf": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/figures/square_fields_power.pdf",
+      "source_sha256": "cf091a1715f5fe1648602810d878b998a3d5f9c89561c9399ac9b6d6b00817b4",
+      "view_sha256": "cf091a1715f5fe1648602810d878b998a3d5f9c89561c9399ac9b6d6b00817b4",
+      "transformations": []
+    },
+    "figures/square_fields_power.png": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/figures/square_fields_power.png",
+      "source_sha256": "c3460e59d0ec53866c6282435d6cd1fe2dd4867cef322b92201a55cedc461889",
+      "view_sha256": "c3460e59d0ec53866c6282435d6cd1fe2dd4867cef322b92201a55cedc461889",
+      "transformations": []
+    },
+    "figures/square_position_maps.pdf": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/figures/square_position_maps.pdf",
+      "source_sha256": "43d9fdbf3f2be040287afc01d941634f1de82260c73b48d13571f0b84d6262d9",
+      "view_sha256": "43d9fdbf3f2be040287afc01d941634f1de82260c73b48d13571f0b84d6262d9",
+      "transformations": []
+    },
+    "figures/square_position_maps.png": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/figures/square_position_maps.png",
+      "source_sha256": "46551f445e25e38f863047d3379a628e365f7a3494e03ded06413ed295570485",
+      "view_sha256": "46551f445e25e38f863047d3379a628e365f7a3494e03ded06413ed295570485",
+      "transformations": []
+    },
+    "run_summary.json": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/summary.json",
+      "source_sha256": "b9a72d15486a07ea13c5562cb3aff5024d441b39b994b24f0e4aacfcf8f43453",
+      "view_sha256": "b9a72d15486a07ea13c5562cb3aff5024d441b39b994b24f0e4aacfcf8f43453",
+      "transformations": []
+    },
+    "raw_report.md": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/report.md",
+      "source_sha256": "fb34c30ae029e14656e664241b6705f1f8e972f1314ef8822b860a288ba584d7",
+      "view_sha256": "fb34c30ae029e14656e664241b6705f1f8e972f1314ef8822b860a288ba584d7",
+      "transformations": []
+    },
+    "validation_selection.json": {
+      "release_source": "experiments/20261022T065141721233Z_square_holes_9f15d628/validation_selection.json",
+      "source_sha256": "9e39dfbcea58f2391d761fa7d2ea45b792f008eb20e9cf18e9625a82e285a48e",
+      "view_sha256": "9e39dfbcea58f2391d761fa7d2ea45b792f008eb20e9cf18e9625a82e285a48e",
+      "transformations": []
+    }
+  },
+  "derived_files": {
+    "analysis.json": {
+      "sha256": "019f41f38f0a54c8664e949e1e2a76f0cb5d83e95dd6dcbc1a814381aae6a82d",
+      "generator": "scripts/curate_square_holes.py",
+      "generator_sha256": "1c17960a4887b57c81d8304255e66c1e7e10ab7e300e21144852611c26695fd2",
+      "inputs": "Unchanged complete-run tables, geometry metadata and solve ledger"
+    },
+    "endpoint_geometries.json": {
+      "sha256": "25159b6dca4726f27eacd1e9e6c7218be9addbe84592b9cad78609d99dc26280",
+      "generator": "scripts/curate_square_holes.py",
+      "generator_sha256": "1c17960a4887b57c81d8304255e66c1e7e10ab7e300e21144852611c26695fd2",
+      "inputs": "Unchanged complete-run tables, geometry metadata and solve ledger"
+    },
+    "tables/endpoint_refinement.csv": {
+      "sha256": "01ab179ed3175ff5bcdfe296b526e6accebfe4d00026660108cdf4892a83a1f3",
+      "generator": "scripts/curate_square_holes.py",
+      "generator_sha256": "1c17960a4887b57c81d8304255e66c1e7e10ab7e300e21144852611c26695fd2",
+      "inputs": "Unchanged complete-run tables, geometry metadata and solve ledger"
+    },
+    "tables/position_gain_ranges.csv": {
+      "sha256": "4d8922d2e5774aaed6438daf816695950ca92a4edc2f0d43fe31ab5ad9e05a35",
+      "generator": "scripts/curate_square_holes.py",
+      "generator_sha256": "1c17960a4887b57c81d8304255e66c1e7e10ab7e300e21144852611c26695fd2",
+      "inputs": "Unchanged complete-run tables, geometry metadata and solve ledger"
+    },
+    "tables/pair_refinement.csv": {
+      "sha256": "4c5a281aac9ece4b6744358cbf7b3760a3fa22e3b78baaff56aa23948deb161a",
+      "generator": "scripts/curate_square_holes.py",
+      "generator_sha256": "1c17960a4887b57c81d8304255e66c1e7e10ab7e300e21144852611c26695fd2",
+      "inputs": "Unchanged complete-run tables, geometry metadata and solve ledger"
+    },
+    "validation_summary.json": {
+      "sha256": "9d0ae5eb4b34f0efe4ea226e53b6f2ee5f0dab939e02374b68acf0de3e71f4d2",
+      "inputs": "JUnit records, independent replay, unchanged archived-source manifests, release asset identities"
+    }
+  }
+}

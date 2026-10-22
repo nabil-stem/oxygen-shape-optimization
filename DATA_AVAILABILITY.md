@@ -25,6 +25,14 @@ their complete raw data are not all included in these archives. Original
 user-supplied paper PDFs and third-party package binaries are not redistributed.
 The generated benchmark contains no patient or participant data.
 
+The later [square-island extension](paper/square_holes/README.md) is distributed
+separately in the [dated square-hole release](https://github.com/nabil-stem/oxygen-shape-optimization/releases/tag/square-holes-20261022).
+It retains the complete successful run, every paid trial, reflecting controls,
+independent FEM fields, source snapshots, numerical audits and an earlier
+interrupted attempt. The interrupted ledger is unusable; its incurred solver
+cost is unknown and excluded from the completed-run totals. No caches from it
+were adopted. This extension does not rewrite v0.1.0 or share its resource budget.
+
 Author: Nabil ES-SAADI, independent researcher. Project code is [MIT](LICENSE);
 original data, figures and research text are [CC BY 4.0](LICENSE-DATA.md).
 Dependencies retain their [own terms](THIRD_PARTY.md).

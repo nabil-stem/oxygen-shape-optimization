@@ -14,6 +14,7 @@
 - [Source-corner limit](source_corner_limit.md), [conducting collar](collar_ablation.md), [permeability response](permeability_response.md) and [source-amplitude scaling](source_amplitude_derivation.md).
 - [Geometry literature](morphology_literature.md) and [pulmonary modeling references](pulmonary_papers.md).
 - [Square-hole protocol and prior art](square_holes_protocol.md) and [flux/annulus derivation](square_holes_derivation.md).
+- [Square-island results, figures and refinement tables](../paper/square_holes/README.md).
 
 ## Exploratory methods and history
 

@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "seed": 410000,
+  "n": 100,
+  "scope": "Square excluded islands; no anatomical optimality or RL claim",
+  "position_cases": 840,
+  "controlled_layouts": 13,
+  "search_runs": 10,
+  "validation_rows": 340,
+  "committed_fvm_solves": 3493,
+  "committed_fem_solves": 418,
+  "this_invocation_new_solves": 3911,
+  "possible_uncommitted_solve_upper_bound": 0
+}

@@ -1,0 +1,372 @@
+[
+  {
+    "case": "search/uniform_greedy_420000",
+    "mask_sha256": "49e0aeade5587432d393f09d323c607d17db4f9b060990a6c71511515ec64083",
+    "grid_spacing": 0.01,
+    "holes": [
+      {
+        "row": 32,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 40,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 24,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 60,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 64,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "search/concentration_greedy_420000",
+    "mask_sha256": "49e0aeade5587432d393f09d323c607d17db4f9b060990a6c71511515ec64083",
+    "grid_spacing": 0.01,
+    "holes": [
+      {
+        "row": 32,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 40,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 24,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 60,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 64,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "search/uniform_greedy_420001",
+    "mask_sha256": "51f642c9157bd215678c22ac159821f26a367c00ec9cd8cd4462dddac4225d13",
+    "grid_spacing": 0.01,
+    "holes": [
+      {
+        "row": 32,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 32,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 48,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 60,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 64,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "search/concentration_greedy_420001",
+    "mask_sha256": "3efa16357534750bc6492aa46b83e42ca77597a429885d55d2712a1c138722ba",
+    "grid_spacing": 0.01,
+    "holes": [
+      {
+        "row": 32,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 32,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 60,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 56,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 48,
+        "col": 56,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "search/uniform_greedy_420002",
+    "mask_sha256": "7deda1c9a3f845625aa8e70f5cb79e720804f8c74abd592ded2cf698b192842c",
+    "grid_spacing": 0.01,
+    "holes": [
+      {
+        "row": 32,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 64,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 60,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 48,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 32,
+        "col": 40,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "search/concentration_greedy_420002",
+    "mask_sha256": "7deda1c9a3f845625aa8e70f5cb79e720804f8c74abd592ded2cf698b192842c",
+    "grid_spacing": 0.01,
+    "holes": [
+      {
+        "row": 32,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 32,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 48,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 60,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 64,
+        "col": 40,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "search/uniform_greedy_420003",
+    "mask_sha256": "2b678b891cc577a6cc9ec7e7d46d29409fca6200c01311ec7a040dd75ee374eb",
+    "grid_spacing": 0.01,
+    "holes": [
+      {
+        "row": 32,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 24,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 56,
+        "col": 32,
+        "width": 8
+      },
+      {
+        "row": 48,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "search/concentration_greedy_420003",
+    "mask_sha256": "7deda1c9a3f845625aa8e70f5cb79e720804f8c74abd592ded2cf698b192842c",
+    "grid_spacing": 0.01,
+    "holes": [
+      {
+        "row": 32,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 48,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 60,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 64,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 32,
+        "col": 40,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "search/uniform_greedy_420004",
+    "mask_sha256": "823745ce912c4f1443ebc2fe639ab77a11ea8114bbea6b8679d54c9bfc102dc3",
+    "grid_spacing": 0.01,
+    "holes": [
+      {
+        "row": 32,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 60,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 48,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 32,
+        "col": 40,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "search/concentration_greedy_420004",
+    "mask_sha256": "7deda1c9a3f845625aa8e70f5cb79e720804f8c74abd592ded2cf698b192842c",
+    "grid_spacing": 0.01,
+    "holes": [
+      {
+        "row": 32,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 32,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 72,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 60,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 64,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 48,
+        "col": 40,
+        "width": 8
+      }
+    ]
+  }
+]

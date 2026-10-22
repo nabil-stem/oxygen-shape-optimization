@@ -1,0 +1,81 @@
+{
+  "run_summary": {
+    "status": "complete",
+    "seed": 410000,
+    "n": 100,
+    "scope": "Square excluded islands; no anatomical optimality or RL claim",
+    "position_cases": 840,
+    "controlled_layouts": 13,
+    "search_runs": 10,
+    "validation_rows": 340,
+    "committed_fvm_solves": 3493,
+    "committed_fem_solves": 418,
+    "this_invocation_new_solves": 3911,
+    "possible_uncommitted_solve_upper_bound": 0
+  },
+  "solver_seconds_by_kind": {
+    "fvm": 409.9895997999997,
+    "fem": 41.007309000002465
+  },
+  "search_endpoint_geometries": 6,
+  "all_search_budgets_completed": true,
+  "charged_search_solves": 1290,
+  "geometric_search_rejections": 2924,
+  "accepted_search_edits": 85,
+  "best_coarse_endpoint": {
+    "case": "search/uniform_greedy_420002",
+    "method": "uniform_greedy",
+    "seed": 420002,
+    "mask_sha256": "7deda1c9a3f845625aa8e70f5cb79e720804f8c74abd592ded2cf698b192842c",
+    "area": 0.48360000000000003,
+    "robin_perimeter": 5.0200000000000005,
+    "Q_n100": 0.5156323244221684,
+    "Q_n400": 0.5169565832632054,
+    "Q_FEM_fine": 0.517723170016821,
+    "Q_FEM_coarse": 0.5185175237782481,
+    "FVM_relocation_gain_percent": 0.3769658899949846,
+    "FEM_relocation_gain_percent": 0.3834443962773104,
+    "FEM_gain_vs_unperforated_percent": 2.929910493347676,
+    "accepted_edits": 11,
+    "charged_solves": 129,
+    "raw_draws": 323,
+    "geometric_rejections": 195,
+    "status": "complete"
+  },
+  "best_fine_fem_endpoint": {
+    "case": "search/uniform_greedy_420002",
+    "method": "uniform_greedy",
+    "seed": 420002,
+    "mask_sha256": "7deda1c9a3f845625aa8e70f5cb79e720804f8c74abd592ded2cf698b192842c",
+    "area": 0.48360000000000003,
+    "robin_perimeter": 5.0200000000000005,
+    "Q_n100": 0.5156323244221684,
+    "Q_n400": 0.5169565832632054,
+    "Q_FEM_fine": 0.517723170016821,
+    "Q_FEM_coarse": 0.5185175237782481,
+    "FVM_relocation_gain_percent": 0.3769658899949846,
+    "FEM_relocation_gain_percent": 0.3834443962773104,
+    "FEM_gain_vs_unperforated_percent": 2.929910493347676,
+    "accepted_edits": 11,
+    "charged_solves": 129,
+    "raw_draws": 323,
+    "geometric_rejections": 195,
+    "status": "complete"
+  },
+  "maximum_fem_mesh_increment": 0.0008559486229368085,
+  "endpoint_fem_range": 0.0002016852455841711,
+  "maximum_endpoint_fvm_fem_difference": 0.0007769924555283136,
+  "discarded_attempt": {
+    "status": "Interrupted; unusable zero-filled solve ledger; not resumed or adopted",
+    "existing_cache_files": 3708,
+    "solver_cost": "Unknown; excluded from complete-run totals, additional incurred work"
+  },
+  "limitations": [
+    "Not RL",
+    "Selected finite endpoints; no global optimum",
+    "Extra membrane vs unperforated baseline",
+    "Same staircase exterior",
+    "No anatomical inference",
+    "Pair examples are not a separation-only sweep"
+  ]
+}
