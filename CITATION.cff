@@ -7,7 +7,7 @@ authors:
     given-names: "Nabil"
     affiliation: "Independent researcher"
 version: 0.1.0
-date-released: 2026-10-21
+date-released: 2026-10-22
 license: MIT
 repository-code: "https://github.com/nabil-stem/oxygen-shape-optimization"
 url: "https://github.com/nabil-stem/oxygen-shape-optimization/releases/tag/v0.1.0"
