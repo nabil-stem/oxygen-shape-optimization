@@ -110,31 +110,30 @@ diagnosis uses pre-update observed labels; it cannot infer regret on unselected
 actions or causally explain endpoint differences. Conventional search and modern
 deep-RL/adjoint methods outside the tested edit space are not ruled out.
 
-## S7. Execution, files and human review
+## S7. Evidence, validation and reproduction
 
-[reproducibility.md](reproducibility.md) gives local installation and replay
-commands; [morphology_execution.md](morphology_execution.md) records the passing
-306-case regression, execution scheduling, archived sources and launcher repair.
-The repository has no HEAD commit; exact hashes preserve provenance without
-inventing retrospective history. The prepared Windows/Ubuntu CI has not been
-executed remotely. Concurrent timings are descriptive, with training and
-independent validation costs reported separately.
+The [reproduction guide](reproducibility.md) describes the public release,
+verification and saved-field regeneration. The complete executed evidence is
+available in [v0.1.0](https://github.com/nabil-stem/oxygen-shape-optimization/releases/tag/v0.1.0),
+including configs, seeds, field caches, journals, environment records and source
+snapshots. Production predates the initial Git commit; its original source
+hashes and Git-null records are preserved without retrospective history.
 
-The main run is `20261021T122626095890Z_morphology_98e4aafa`; the conventional
-extension is `20261021T141950978652Z_classical_72101312`. Each retains configuration,
-seeds, numerical settings, geometry masks, fields, journals and reports.
-The documented post-run curve-index correction preserves original plots and
-numerical results, with four added regression cases. Exact historical replay
-uses archived executed sources; current reporting includes that correction.
-`scripts/paper_tables.py` checks reviewed input hashes and collects completed
-tables without solving PDEs. `python -m scripts.paper_figures` creates vector
-figures from those tables, and `scripts/winner_mechanisms.py` reuses checked fields.
+The released regression passes 324 tests locally and on Windows and Ubuntu.
+A separate-folder check regenerated 15 checked CSV tables and ten PNG figures
+exactly, excluding relocated paths, with PDE entry points disabled. The release
+verification records and SHA-256 manifests accompany the data. The
+[public paper view](../paper/README.md) contains portable copies; full raw
+provenance and post-run plotting-correction history remain in the release assets.
+
+The main study is `20261021T122626095890Z_morphology_98e4aafa`; the classical
+extension is `20261021T141950978652Z_classical_72101312`. Concurrent timings are
+descriptive; training and validation costs are reported separately. Original
+executed sources are required for identity-guarded continuation of those runs.
+Current reporting does not silently replace their code or numerical evidence.
 
 Use the [claim review](claim_evidence_review.md) and
-[related-work assessment](related_work_assessment.md) when judging the scope.
-Human mathematical/subject review, authorship, licensing, persistent code/data
-deposition and a venue-specific submission remain author activities. None is
-implied by a successful test suite or by the existence of these local files.
-
-Final corrected full regression: **310 passed in 511.75 seconds** on 21 October 2026.
-The XML is retained in tmp/paper_gate_corrected_20261021/tests.xml and the review packet.
+[related-work assessment](related_work_assessment.md) when evaluating the scope.
+Code is MIT and original data/figures/research text are CC BY 4.0. The manuscript
+remains an unreviewed draft; human scientific verification, an archival DOI and
+journal submission remain outstanding.

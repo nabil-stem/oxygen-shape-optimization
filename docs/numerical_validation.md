@@ -16,13 +16,16 @@ reference; they are not shape-optimization results.
 - `viz/`: geometry, concentrations, contours, source, Robin flux density, slab errors.
 - `cli.py`, example configurations, README, derivation, and seven test modules.
 
+Current test and CI instructions are in [reproducibility](reproducibility.md).
+The tables below retain the original analytical/reference validation.
+
 ## Checks executed
 
-```powershell
-.\.venv\Scripts\python.exe -m pytest -q
-.\.venv\Scripts\python.exe -m ruff check src tests
-.\.venv\Scripts\python.exe -m oxygen_shape.cli validate-1d --config configs/slab_1d.yaml
-.\.venv\Scripts\python.exe -m oxygen_shape.cli solve --config configs/rectangle_2d.yaml
+```text
+python -m pytest -q
+python -m ruff check src tests
+python -m oxygen_shape.cli validate-1d --config configs/slab_1d.yaml
+python -m oxygen_shape.cli solve --config configs/rectangle_2d.yaml
 ```
 
 Result: **60 tests passed in 7.36 s**; Ruff: **All checks passed**. Tests cover
@@ -121,8 +124,8 @@ Every run saves `config.yaml`, `metrics.csv`, `initial_geometry.npy`,
 diagnostic tolerances, installed versions, Git state, timing, Q, eta, and resources.
 The direct solve has no iterative tolerance; `solver_tolerance` is null.
 
-This repository has no commits yet, so the recorded Git commit is null and dirty
-state is true. Exact Python sources, pyproject, and AGENTS.md are preserved in each
+At the time of these initial validation runs, the repository had no commits,
+so their recorded Git commit is null and dirty state is true. Exact Python sources, pyproject, and AGENTS.md are preserved in each
 run's `source_snapshot/` with SHA-256 hashes in `source_manifest.json`.
 The recorded seed is metadata; these deterministic workflows consume no randomness.
 
@@ -131,12 +134,7 @@ nonrectangular mask has an algebraic conservation regression, not a continuum
 accuracy claim. Raster staircases can bias perimeter. Source/Robin corners can
 reduce field convergence order; the permeability-limit test uses separated slab
 boundaries to avoid a source/absorber corner singularity. At Bi=0, the solution is
-exactly one, Q is zero, and eta is undefined. Solver-level validation does not yet
-enforce the area/perimeter/neck constraints needed by a future optimizer.
-Shape comparisons, optimization, Monte Carlo, GPU work, and 3D remain later stages.
-
-Next example command:
-
-```powershell
-.\.venv\Scripts\python.exe -m oxygen_shape.cli solve --config configs/rectangle_2d.yaml
-```
+exactly one, Q is zero, and eta is undefined. These initial solver checks did not
+validate optimization constraints. The later [morphology protocol](morphology_protocol.md)
+and [limitations](morphology_limits.md) document the current constrained search.
+Monte Carlo and 3D remain outside the released study.

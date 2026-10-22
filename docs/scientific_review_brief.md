@@ -11,8 +11,8 @@ been contacted and no endorsement has been obtained.
 
 ## Materials and scope
 
-Read the manuscript, technical supplement and claim-evidence matrix in
-experiments/paper_review_20261021. The release provides the current analysis
+Read the [manuscript](manuscript_draft.md), [technical supplement](manuscript_supplement.md),
+[claim-evidence matrix](claim_evidence_review.md) and [public figures/tables](../paper/README.md). The release provides the current analysis
 sources, executed numerical sources, 285 returned endpoints, full evaluated
 proposal journals and validation fields. The production accounting is 50,721
 solver calls. The manuscript concerns a finite 2D Robin-diffusion benchmark.
@@ -55,18 +55,3 @@ Please distinguish errors that change conclusions from useful extensions. For
 each concern provide the affected claim/figure, severity, and a proposed test
 or wording change. A short signed/dated response can be recorded separately
 with permission; no response or identity will be invented.
-
-## Draft invitation — not sent
-
-Subject: Request for critical review of a Robin-diffusion geometry benchmark
-
-I am Nabil ES-SAADI, an independent researcher preparing a computational study
-of constrained geometry search for steady Robin diffusion. Would you be willing
-to assess the mathematical/numerical formulation or its scientific novelty?
-The attached brief identifies the questions and the release supplies raw fields,
-executed sources and an unreviewed manuscript. The findings include negative
-learning results and unresolved leading-shape rankings. I seek a critical
-assessment before considering journal submission. Please let me know your
-availability and any conflicts or review terms. Thank you.
-
-Send only after choosing a real recipient and authorizing that correspondence.

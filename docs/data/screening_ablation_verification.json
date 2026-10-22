@@ -1,9 +1,0 @@
-{
-  "all_observed_full_valid_edits_pass_cheap_screens": true,
-  "matched_exploration_branches": true,
-  "selection_trace_checks": true,
-  "audit_mask_hashes": true,
-  "all_pairwise_rank_signs_preserved_at_100_200_400": true,
-  "executed_source_matches_current_source_manifest": true,
-  "note": "Checks describe saved samples and staircase refinements, not a continuum or all-geometries certificate."
-}

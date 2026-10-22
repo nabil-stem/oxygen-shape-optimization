@@ -1,11 +1,15 @@
 # RL proposal policy: implementation and use
 
-This user-requested extension follows the validated deterministic solver,
+This note describes an earlier exploratory representation. Original run-bound
+configs and commands are retained in the [v0.1.0 source snapshot](https://github.com/nabil-stem/oxygen-shape-optimization/tree/v0.1.0).
+They are separate from the current cap-8 paper benchmark.
+
+This exploratory implementation follows the validated deterministic solver,
 baseline shape study, and constrained random disk optimizer. It implements
 **tabular Q-learning** in NumPy. The policy chooses where and at what radius to
 propose a disk edit; the finite-volume solver remains the physical evaluator.
-The low-concentration deletion hypothesis and sensitivity-guided comparison are
-still separate research milestones.
+The low-concentration deletion hypothesis and sensitivity-guided comparison
+are separate experiments.
 
 ## State, action, transition, reward
 
@@ -29,7 +33,7 @@ y=0.5. A radius is sampled uniformly within the lower or upper half of the
 configured interval. Choose an eligible addition face uniformly within that
 region, and an independent removal donor uniformly over all eligible faces.
 Angular exploration, exact paired area balance, and validity checks are the
-same as in [the random disk optimizer](optimization_v0.md).
+same as in [the random disk optimizer](https://github.com/nabil-stem/oxygen-shape-optimization/blob/v0.1.0/docs/optimization_v0.md).
 
 An invalid action leaves the geometry unchanged and receives reward -0.01.
 A valid candidate is solved and accepted only when its Q exceeds the current Q
@@ -114,18 +118,18 @@ They do not establish generalization to new geometries, sources, or regimes.
 
 ## Commands and checkpoint
 
-```powershell
+```text
 # Random-search benchmark
-.\.venv\Scripts\python.exe -m oxygen_shape.cli optimize --config configs/optimize_disks.yaml
+python -m oxygen_shape.cli optimize --config configs/optimize_disks.yaml
 
 # Train, freeze, and benchmark against both controls
-.\.venv\Scripts\python.exe -m oxygen_shape.cli train-rl --config configs/train_rl.yaml
+python -m oxygen_shape.cli train-rl --config configs/train_rl.yaml
 
 # Reuse the saved checkpoint without retraining
-.\.venv\Scripts\python.exe -m oxygen_shape.cli evaluate-rl --config configs/train_rl.yaml --policy models/disk_q_policy.npz
+python -m oxygen_shape.cli evaluate-rl --config configs/train_rl.yaml --policy models/disk_q_policy.npz
 
 # Re-run the five-seed comparison from an existing training directory
-.\.venv\Scripts\python.exe -m oxygen_shape.cli benchmark-rl --config configs/train_rl.yaml --training-run "PATH_TO_TRAINING_RUN"
+python -m oxygen_shape.cli benchmark-rl --config configs/train_rl.yaml --training-run "PATH_TO_TRAINING_RUN"
 ```
 
 `evaluate-rl` uses the seed in the configuration, rejects a training seed, and
@@ -151,4 +155,4 @@ Relevant modules:
 Tests verify the update on a two-step MDP with delayed reward, terminal handling,
 deterministic seeded trajectories and weights, checkpoint round-trip, frozen
 evaluation, disjoint seeds, equal evaluation budgets, and physical constraints.
-Results are recorded separately in [the experiment report](rl_results.md).
+Results are recorded separately in [the experiment report](https://github.com/nabil-stem/oxygen-shape-optimization/blob/v0.1.0/docs/rl_results.md).

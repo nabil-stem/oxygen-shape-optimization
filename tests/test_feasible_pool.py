@@ -152,6 +152,6 @@ def test_small_study_writes_full_roster_provenance_and_refinements(tmp_path):
     assert (root / "paired_comparisons.csv").is_file()
     assert len(list(root.glob("runs/*/refinement.csv"))) == 12
     assert summary["training_pde_solves"] == 0 and not summary["policy_promoted"]
-    # Full production YAML resolves and pins previously observed input files.
+    # The shipped example generates its own starts without private run files.
     config = load_config(Path("configs/feasible_pools.yaml"), PoolStudyConfig)
-    assert len(config.inputs) == 4 and all(s.mask_file.is_absolute() for s in config.inputs)
+    assert config.inputs == [] and config.include_canonical

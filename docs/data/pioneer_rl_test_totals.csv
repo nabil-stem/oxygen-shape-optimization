@@ -1,6 +1,0 @@
-control,complete_pairs,fine_wins,fine_ties,fine_losses,coarse_fine_classification_changes
-flux_pool,40,13,11,16,1
-perimeter_pool,40,30,3,7,0
-screened_uniform,40,26,0,14,0
-uniform,40,30,0,10,0
-untrained,40,26,0,14,0

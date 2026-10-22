@@ -1,8 +1,0 @@
-seed: 42
-output_root: ../experiments
-reference_checkpoint: ../models/disk_q_policy.npz
-deadline_utc: '2026-10-18T22:44:30Z'
-training_episodes: 40
-training_seeds: [1042, 2042, 3042, 4042, 5042]
-primary_seeds: [200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219]
-transfer_seeds: [300, 301, 302, 303, 304]

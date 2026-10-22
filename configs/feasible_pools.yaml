@@ -1,3 +1,4 @@
+# Portable example: canonical starts are generated, no previous experiment files required.
 seed: 180000
 output_root: ../experiments
 model:
@@ -7,29 +8,22 @@ target_area: 0.24
 perimeter_limit: 4.0
 minimum_feature_width: 0.04
 protected_length: 0.12
-radii: [0.05, 0.08]
+radii:
+- 0.05
+- 0.08
 solve_budget: 17
 raw_draw_budget: 6000
 pool_size: 8
 refill_draw_limit: 256
 epsilon_uniform: 0.25
-refinement_factors: [2, 4]
-evaluation_seeds: [181000, 181001, 181002, 181003, 181004]
+refinement_factors:
+- 2
+- 4
+evaluation_seeds:
+- 181000
+- 181001
+- 181002
+- 181003
+- 181004
 include_canonical: true
-inputs:
-- name: improved_deep_0
-  family: deep_cavity
-  mask_file: ../experiments/20261019T111653094459Z_rl_revision_694225e7/bank/test_deep_cavity_162000.npy
-  mask_sha256: f050a74cf0ec06852c4ff29d19a7ffff9b8e28250079a5037eda9fe1e4a1dc3d
-- name: improved_deep_1
-  family: deep_cavity
-  mask_file: ../experiments/20261019T111653094459Z_rl_revision_694225e7/bank/test_deep_cavity_162001.npy
-  mask_sha256: 309e5b7fd8b8af20b0ab069b4fa6372e44c21e49f992bb9a299066471cb198ec
-- name: improved_rectangle_0
-  family: rectangle
-  mask_file: ../experiments/20261019T111653094459Z_rl_revision_694225e7/bank/test_rectangle_162000.npy
-  mask_sha256: aa43a3177dcf596ac3b1b0cf6db85573e666f93c13ee59e3c6f693b36cadd3f4
-- name: improved_rectangle_1
-  family: rectangle
-  mask_file: ../experiments/20261019T111653094459Z_rl_revision_694225e7/bank/test_rectangle_162001.npy
-  mask_sha256: a01d34565a6c6ddbfc78c511925e631ac2929f6c99d476491521d2a9375c88d7
+inputs: []

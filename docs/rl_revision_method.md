@@ -1,5 +1,9 @@
 # Reward alignment, flux prior and full geometry screening
 
+This note describes an earlier exploratory representation. Original run-bound
+configs and commands are retained in the [v0.1.0 source snapshot](https://github.com/nabil-stem/oxygen-shape-optimization/tree/v0.1.0).
+They are separate from the current cap-8 paper benchmark.
+
 Protocol fixed before running the revised study on 2026-10-19. The original
 study is retained. Its test bank and seeds are now development knowledge.
 This study tests candidate causes, not an assurance that RL will beat physics.

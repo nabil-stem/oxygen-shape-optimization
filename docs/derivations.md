@@ -147,7 +147,7 @@ The flux-guided comparison uses w(i,j)=j_i*(max(j)-j_j) and the same mixture.
 Equal flux produces zero contrast and reduces to uniform. Neither weighting
 formula changes acceptance: only the globally re-solved Q determines the best
 candidate. The batch holds geometry fixed while probing and discards responses
-before another round. Full protocol and limitations: sensitivity_method.md.
+before another round. Full historical protocol and limitations: [sensitivity method](https://github.com/nabil-stem/oxygen-shape-optimization/blob/v0.1.0/docs/sensitivity_method.md).
 
 ## Held-out ranking and radius diagnostic
 
@@ -165,7 +165,7 @@ Weights sum to one, never depend on observed responses, and reduce to uniform
 when every score ties. Consequently an all-tied predictor gets the pool mean,
 rather than being credited for an arbitrary ordering of the test set. Tests
 verify these limits and equivalence to the current sensitivity probability map.
-See prediction_method.md for the frozen split and independent radius replay.
+See the historical [prediction protocol](https://github.com/nabil-stem/oxygen-shape-optimization/blob/v0.1.0/docs/prediction_method.md) for the frozen split and independent radius replay.
 
 ## Screened-uniform proposal law
 

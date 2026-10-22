@@ -1,0 +1,291 @@
+{
+  "source_release": "https://github.com/nabil-stem/oxygen-shape-optimization/releases/tag/v0.1.0",
+  "purpose": "Portable public view; complete original provenance remains in versioned assets",
+  "numerical_values_changed": false,
+  "figure_bytes_changed": false,
+  "files": {
+    "figures/algorithm_curves.pdf": {
+      "release_source": "experiments/paper_review_20261021/figures/algorithm_curves.pdf",
+      "source_sha256": "9417fe8d293664aeda1b10bdca6a335ae76bb7b97ce867cd44fa9b22ac40e29f",
+      "view_sha256": "9417fe8d293664aeda1b10bdca6a335ae76bb7b97ce867cd44fa9b22ac40e29f",
+      "transformations": []
+    },
+    "figures/algorithm_curves.png": {
+      "release_source": "experiments/paper_review_20261021/figures/algorithm_curves.png",
+      "source_sha256": "9a54141475893a3da560cf1c97b99366cb25cfeae10de7d1adfb938275617fd5",
+      "view_sha256": "9a54141475893a3da560cf1c97b99366cb25cfeae10de7d1adfb938275617fd5",
+      "transformations": []
+    },
+    "figures/boundary_conditions.pdf": {
+      "release_source": "experiments/paper_review_20261021/figures/boundary_conditions.pdf",
+      "source_sha256": "49bc784bb56b9cbd856fc5998182ffb8282de33ac76f926cdda007cf1d9bdbd8",
+      "view_sha256": "49bc784bb56b9cbd856fc5998182ffb8282de33ac76f926cdda007cf1d9bdbd8",
+      "transformations": []
+    },
+    "figures/boundary_conditions.png": {
+      "release_source": "experiments/paper_review_20261021/figures/boundary_conditions.png",
+      "source_sha256": "cdcf6b1d9c5b5139d6618c4699bf22f207f0de72332fcf590d6ba1bf9fb0c7cc",
+      "view_sha256": "cdcf6b1d9c5b5139d6618c4699bf22f207f0de72332fcf590d6ba1bf9fb0c7cc",
+      "transformations": []
+    },
+    "figures/conducting_collar_sensitivity.pdf": {
+      "release_source": "experiments/paper_review_20261021/figures/conducting_collar_sensitivity.pdf",
+      "source_sha256": "2b8e6a62b005e08927bc8d6cd4d8eb2455ab06928bdd77b2e9f398fe2faf0572",
+      "view_sha256": "2b8e6a62b005e08927bc8d6cd4d8eb2455ab06928bdd77b2e9f398fe2faf0572",
+      "transformations": []
+    },
+    "figures/conducting_collar_sensitivity.png": {
+      "release_source": "experiments/paper_review_20261021/figures/conducting_collar_sensitivity.png",
+      "source_sha256": "534785396d1457f227e6a78a48f974a43767e8509a43e90485359824ff666d3b",
+      "view_sha256": "534785396d1457f227e6a78a48f974a43767e8509a43e90485359824ff666d3b",
+      "transformations": []
+    },
+    "figures/fixed_membrane_control.pdf": {
+      "release_source": "experiments/paper_review_20261021/figures/fixed_membrane_control.pdf",
+      "source_sha256": "80022b9a188f070788eda752f5b22a46477ffe35aa52825d7c55c15651a44b60",
+      "view_sha256": "80022b9a188f070788eda752f5b22a46477ffe35aa52825d7c55c15651a44b60",
+      "transformations": []
+    },
+    "figures/fixed_membrane_control.png": {
+      "release_source": "experiments/paper_review_20261021/figures/fixed_membrane_control.png",
+      "source_sha256": "7781e2cb099d490b062f5908c2c6ee49c9c6205e733d3414aaba3cff17ee66d3",
+      "view_sha256": "7781e2cb099d490b062f5908c2c6ee49c9c6205e733d3414aaba3cff17ee66d3",
+      "transformations": []
+    },
+    "figures/flux_and_membrane_resources.pdf": {
+      "release_source": "experiments/paper_review_20261021/figures/flux_and_membrane_resources.pdf",
+      "source_sha256": "7813eee8c85970acf826697d0eeeaed9057ba4a2b6010d7e4453a2c9c191733c",
+      "view_sha256": "7813eee8c85970acf826697d0eeeaed9057ba4a2b6010d7e4453a2c9c191733c",
+      "transformations": []
+    },
+    "figures/flux_and_membrane_resources.png": {
+      "release_source": "experiments/paper_review_20261021/figures/flux_and_membrane_resources.png",
+      "source_sha256": "2f5ada878afacae551fa31a4aae9a041c7e203630b1c2fb2334a64cc70850914",
+      "view_sha256": "2f5ada878afacae551fa31a4aae9a041c7e203630b1c2fb2334a64cc70850914",
+      "transformations": []
+    },
+    "figures/geometry_bank.pdf": {
+      "release_source": "experiments/paper_review_20261021/figures/geometry_bank.pdf",
+      "source_sha256": "56209ebdfa25da6805f5905e184dfc1990d2d57f16238a0ddb8d219f81baa3d0",
+      "view_sha256": "56209ebdfa25da6805f5905e184dfc1990d2d57f16238a0ddb8d219f81baa3d0",
+      "transformations": []
+    },
+    "figures/geometry_bank.png": {
+      "release_source": "experiments/paper_review_20261021/figures/geometry_bank.png",
+      "source_sha256": "8004abcc4cca19436bff466440d749c6d5dfb88ec69c7f9363d41019439755e4",
+      "view_sha256": "8004abcc4cca19436bff466440d749c6d5dfb88ec69c7f9363d41019439755e4",
+      "transformations": []
+    },
+    "figures/leading_flux_ranges.pdf": {
+      "release_source": "experiments/paper_review_20261021/figures/leading_flux_ranges.pdf",
+      "source_sha256": "49ac52fe43197c3464f57aceeba4f7debc68dbee1b125d0518bd043171dceb99",
+      "view_sha256": "49ac52fe43197c3464f57aceeba4f7debc68dbee1b125d0518bd043171dceb99",
+      "transformations": []
+    },
+    "figures/leading_flux_ranges.png": {
+      "release_source": "experiments/paper_review_20261021/figures/leading_flux_ranges.png",
+      "source_sha256": "fe77d51921bba6b21951f8bfd10f8a46d6897ed6d04abb2eafde50a065216720",
+      "view_sha256": "fe77d51921bba6b21951f8bfd10f8a46d6897ed6d04abb2eafde50a065216720",
+      "transformations": []
+    },
+    "figures/long_horizon_curves.pdf": {
+      "release_source": "experiments/paper_review_20261021/figures/long_horizon_curves.pdf",
+      "source_sha256": "0b41cd504ba4a040d5c95d4508dc8b7755918e328e4cc3babf856b59b1d7bec0",
+      "view_sha256": "0b41cd504ba4a040d5c95d4508dc8b7755918e328e4cc3babf856b59b1d7bec0",
+      "transformations": []
+    },
+    "figures/long_horizon_curves.png": {
+      "release_source": "experiments/paper_review_20261021/figures/long_horizon_curves.png",
+      "source_sha256": "bc9304bbaa6a2d4f67022b4ca6d1cf8ee3c2794dc6a83883d27eb6fb6c4afa86",
+      "view_sha256": "bc9304bbaa6a2d4f67022b4ca6d1cf8ee3c2794dc6a83883d27eb6fb6c4afa86",
+      "transformations": []
+    },
+    "figures/original_comparison_curves.pdf": {
+      "release_source": "experiments/paper_review_20261021/figures/original_comparison_curves.pdf",
+      "source_sha256": "fe4e9b4ec55b851bbd10e6c5da29d98fbe790c6a667fce783a7f138610de0ff7",
+      "view_sha256": "fe4e9b4ec55b851bbd10e6c5da29d98fbe790c6a667fce783a7f138610de0ff7",
+      "transformations": []
+    },
+    "figures/original_comparison_curves.png": {
+      "release_source": "experiments/paper_review_20261021/figures/original_comparison_curves.png",
+      "source_sha256": "fa64326cc308b4d47a396df2de2a21ea78c8583d63d92da96e3cdcedbfdaa3c1",
+      "view_sha256": "fa64326cc308b4d47a396df2de2a21ea78c8583d63d92da96e3cdcedbfdaa3c1",
+      "transformations": []
+    },
+    "figures/selected_geometry.pdf": {
+      "release_source": "experiments/paper_review_20261021/figures/selected_geometry.pdf",
+      "source_sha256": "57b6eabdb59759331ddf99ed75b2f8befa1428210d5310a37e67e5c7d51a61bf",
+      "view_sha256": "57b6eabdb59759331ddf99ed75b2f8befa1428210d5310a37e67e5c7d51a61bf",
+      "transformations": []
+    },
+    "figures/selected_geometry.png": {
+      "release_source": "experiments/paper_review_20261021/figures/selected_geometry.png",
+      "source_sha256": "4b9a8cc307fe2ea0baf5f3a412c452c566eab296961190e946cd385c8492d877",
+      "view_sha256": "4b9a8cc307fe2ea0baf5f3a412c452c566eab296961190e946cd385c8492d877",
+      "transformations": []
+    },
+    "tables/all_returned_endpoints.csv": {
+      "release_source": "experiments/paper_review_20261021/all_returned_endpoints.csv",
+      "source_sha256": "31da08506d65b9651cd625b5e546114b75ea6ebe31e51249390ab4427f6877da",
+      "view_sha256": "94132da46864956b2a1e9435191401894c8145f6934d5b2d6bd7ac6e343130fc",
+      "transformations": [
+        "Omitted redundant absolute resolved_path column",
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/catalog_metrics.csv": {
+      "release_source": "experiments/paper_review_20261021/catalog_metrics.csv",
+      "source_sha256": "feb0b07e5641ded84ea0825235a65afeb5d4669806b39276461f87e5fc73c36b",
+      "view_sha256": "461acab37d5330893ae9767a3a3036398da83b15de88614bd96aa2c5778f996b",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/collar_fem_metrics.csv": {
+      "release_source": "experiments/paper_review_20261021/collar_fem_metrics.csv",
+      "source_sha256": "20460798cec496a6d59cebbe3bcab93d438ca4a41f9d6419156d9d2b3654d599",
+      "view_sha256": "1f09bee3390ea68ca57689fce575b1ba69b15b97bc69fc5a6c69df88b16d3ac7",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/collar_initial_rankings.csv": {
+      "release_source": "experiments/paper_review_20261021/collar_initial_rankings.csv",
+      "source_sha256": "4a45079f7e50da15192743c49cf4c2bd3eeae52ab1f26a796134b48b51238c2a",
+      "view_sha256": "60c3c71ba4d34d6fe4b2f2c09a828267cb45b155169a7d2515215637d86c869b",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/collar_metrics.csv": {
+      "release_source": "experiments/paper_review_20261021/collar_metrics.csv",
+      "source_sha256": "048c5bbdc86f77c0a7015477e0d8942d719f1b44b2b8368b406fc1153ae5915a",
+      "view_sha256": "af8900c1cecfe45806f329285c3b0832793dd6b6b90670ca98abb8d144ca35a0",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/contenders.csv": {
+      "release_source": "experiments/paper_review_20261021/contenders.csv",
+      "source_sha256": "be350dc5907b6ab3493d188fdeda0cdccda7ac9bfddfa647c449e8e597c905f7",
+      "view_sha256": "5d7f6d1a4252f7214bf38ae71d8ccdd4cd7faec2d6c6617d6a6f1c78cf9b414d",
+      "transformations": [
+        "Omitted redundant absolute resolved_path column",
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/counterfactual_candidates.csv": {
+      "release_source": "experiments/paper_review_20261021/counterfactual_candidates.csv",
+      "source_sha256": "1d880b8e06ff9d866bbfa81bf1e6978046b1a5e3b4536d97ddcb1603c4cf87fa",
+      "view_sha256": "79b9c4be447937c32d501719119e2c551c899ab985cdee12cbe49ce2c6cd4e2d",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/counterfactual_pools.csv": {
+      "release_source": "experiments/paper_review_20261021/counterfactual_pools.csv",
+      "source_sha256": "ffcd3bb55c3c992ccc40e4e5384cab98610aca3aee6d9c3d0c76a357daa3bb3c",
+      "view_sha256": "91140d8eaaf0ec77d4c55d35ea6d4ad7b5fd2fd0983be3b326a9072e4ae70a71",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/algorithm_curves_summary.csv": {
+      "release_source": "experiments/paper_review_20261021/figures/algorithm_curves_summary.csv",
+      "source_sha256": "819bcfa81ccb47364499ea601a2439d2833473371581a834b1717f48c9749e7a",
+      "view_sha256": "733a5df1fc0cdbbaeb4ecd5012cd9f294022295c41e22e2a6c63e95807671fb9",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/long_horizon_curves_summary.csv": {
+      "release_source": "experiments/paper_review_20261021/figures/long_horizon_curves_summary.csv",
+      "source_sha256": "76fe7f748aba11160071eb8bc837c807484ca7b69c5aa4ddb9505e4668ed04be",
+      "view_sha256": "983098add64d748166d1669cc6557ba548d48903ab5def4c6e84a3acdc004cdf",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/original_comparison_curves_summary.csv": {
+      "release_source": "experiments/paper_review_20261021/figures/original_comparison_curves_summary.csv",
+      "source_sha256": "b0dee8ae8b6ac4d6f1d1d225e2606b76cabd76c39bdbcc16780614df5d15afdc",
+      "view_sha256": "1e523589da0c4d9980e28ade2e0fdf1551cdb2a87491518efda5f66c569fc8eb",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/five_method_comparisons.csv": {
+      "release_source": "experiments/paper_review_20261021/five_method_comparisons.csv",
+      "source_sha256": "d8e386bc7bf4b85aecb2a8db3359a3037ad7effbbf4792fe640eb1ae46ad2877",
+      "view_sha256": "bfb84d54bea342d3a0d8622507cea014d05c293890f4308ee17786e7ecb21495",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/phase_summary.csv": {
+      "release_source": "experiments/paper_review_20261021/phase_summary.csv",
+      "source_sha256": "fb5a2e89f52a148f1adebc10e41c2e349488351938b9f31070c4cf94cb6178d2",
+      "view_sha256": "4b5e7da912d8d3418b644991146358a06cc4123d813d60cd4260550abb73d7eb",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/physical_polygon_checks.csv": {
+      "release_source": "experiments/paper_review_20261021/physical_polygon_checks.csv",
+      "source_sha256": "4ba9836debe0c795e825d5a609af546d85a865e5aa974812f30e6c96105fe027",
+      "view_sha256": "1d98ea950a8a26343835db622448ee6377f641b08d67b852050bdd69478b8882",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/response_phase_errors.csv": {
+      "release_source": "experiments/paper_review_20261021/response_phase_errors.csv",
+      "source_sha256": "75f2de148c11a5b889e338ab67921eceb5800b8801b63528054f543683a88d40",
+      "view_sha256": "6e70dc9f6db2c15344aa7bea0388b37d2fb1b20804c80ed21cc895b77cb398fa",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/source_corner_refinement.csv": {
+      "release_source": "experiments/paper_review_20261021/source_corner_refinement.csv",
+      "source_sha256": "2466c4ee7e55d2e83f9148572ecc9a6427ee4ac136cbefd8a7a0b11c2b51dd9f",
+      "view_sha256": "85e793a5ac9ff53d8eca5591ca03a66b818672ab836069772f1f1b5cef4237e9",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/source_corner_series.csv": {
+      "release_source": "experiments/paper_review_20261021/source_corner_series.csv",
+      "source_sha256": "4b7b3ee0042f9a93ffa534d320dc395ac56f74786db0084715f3d4a711906ed7",
+      "view_sha256": "3d7a5cd8c66b3333fa22e11b04d81399a0dbd6079e6c4abc2581d808da578f3d",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/training_metrics.csv": {
+      "release_source": "experiments/paper_review_20261021/training_metrics.csv",
+      "source_sha256": "4baed47f75b7d43f6b1c92b4639e1240660efa78f449c544623d27aa09d43572",
+      "view_sha256": "f5ea82adfb69e5fcc8989a66c349754583cd8aad3d6bfe438c1b1370ccf92a94",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/summary.json": {
+      "release_source": "experiments/paper_review_20261021/summary.json",
+      "source_sha256": "42f772f28bbef48b44a8260e32c0451ebbcfd4952a554c65848b7a0096db7a2f",
+      "view_sha256": "7c9fa78ef43a8e8aaf8e70ea7cb1df69b243a027325ca3eee43d7bd5db82a578",
+      "transformations": [
+        "Omitted redundant absolute resolved_path fields",
+        "Normalized text line endings to LF"
+      ]
+    },
+    "tables/report.md": {
+      "release_source": "experiments/paper_review_20261021/report.md",
+      "source_sha256": "a61558290db281c6253415432d4efdf58b3bcccc38468a251533ef4d9f370001",
+      "view_sha256": "1a3c1c75618ee60287e35384fa7b75c8c623cc804d8ca93e596fd195e972adbe",
+      "transformations": [
+        "Normalized text line endings to LF"
+      ]
+    }
+  }
+}

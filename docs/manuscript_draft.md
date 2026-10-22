@@ -1,6 +1,7 @@
 # Constrained geometry search for steady Robin diffusion: accessibility, membrane resources and numerical representation
 
-**Nabil ES-SAADI**  
+**Nabil ES-SAADI**
+
 Independent researcher
 
 Computational manuscript draft for human review, 21 October 2026. All numerical
@@ -135,7 +136,7 @@ to n=200 and n=400. It permits short boundary bumps and is not a strict pointwis
 minimum-width or curvature constraint. This distinction limits continuum and
 biological interpretations of pixel-scale edited endpoints.
 
-![boundary conditions](../experiments/paper_review_20261021/figures/boundary_conditions.png)
+![boundary conditions](../paper/figures/boundary_conditions.png)
 
 Figure 1. Source and reactive-wall labels on the same representative geometry. The optional collar changes only proximal boundary conditions; distal wall remains reactive. Shading marks protected geometry.
 
@@ -174,7 +175,7 @@ declared post hoc and cannot create a fresh confirmatory cohort. Each new
 trajectory has the same 129-solve limit. Imported original results and fields
 are hashed and reused; the original study is not changed retrospectively.
 
-![geometry bank](../experiments/paper_review_20261021/figures/geometry_bank.png)
+![geometry bank](../paper/figures/geometry_bank.png)
 
 Figure 2. Initial finite geometry proxies at Bi=1. Area and source are shared; actual membrane lengths differ. Names identify generators, not anatomical reconstructions.
 
@@ -351,7 +352,7 @@ they use the warm ranker without its leverage bonus or random exploration,
 whereas trajectories also adapt to selected outcomes.
 The poorer aggregate learned endpoint result remains part of the finding.
 
-![algorithm curves](../experiments/paper_review_20261021/figures/algorithm_curves.png)
+![algorithm curves](../paper/figures/algorithm_curves.png)
 
 Figure 3. Corrected five-method coarse-flux trajectories at 129 charged solves. Lines are medians and bands interquartile ranges over five geometry/search pairs per family, not confidence intervals. Added controls use known development starts.
 
@@ -374,7 +375,7 @@ This is a regime-specific finding, not evidence of overall learned superiority.
 The different budgets and feasible edit sets prevent treating the difference
 between these gains and unconstrained-cap gains as a causal membrane contribution.
 
-![fixed membrane control](../experiments/paper_review_20261021/figures/fixed_membrane_control.png)
+![fixed membrane control](../paper/figures/fixed_membrane_control.png)
 
 Figure 4. Independent FEM gains with exactly unchanged per-start membrane length, at 65 solves. Different starting families still have different membrane lengths.
 
@@ -390,7 +391,7 @@ are 23 wins, 21 losses and one overlap for fixed-flux annealing; learned anneali
 has 18 wins, 26 losses and one overlap. These are practical numerical comparisons,
 not statistical significance tests or interval-arithmetic certificates.
 
-![leading flux ranges](../experiments/paper_review_20261021/figures/leading_flux_ranges.png)
+![leading flux ranges](../paper/figures/leading_flux_ranges.png)
 
 Figure 5. Practical flux ranges for the leading returned endpoints. The phases have different budgets. FVM values are separate point estimates; the ranges concern fixed staircase geometries, with floating guards rather than interval-arithmetic certification.
 
@@ -422,7 +423,7 @@ redistribution rather than preservation of a space-filling acinar arrangement.
 Neither centroid shift nor the flux bins isolate the cause of the gain; actual
 Q and membrane utilization must be interpreted together.
 
-![selected geometry](../experiments/paper_review_20261021/figures/selected_geometry.png)
+![selected geometry](../paper/figures/selected_geometry.png)
 
 Figure 6. Initial and selected fields, Robin wall flux, equal-area redistribution and integrated absorption by wall-position bin. All concentration panels share an explicitly labeled power display. The gain includes additional membrane and proximal redistribution.
 
@@ -474,7 +475,7 @@ is only -0.00420%. The series and its analytical tail bound support the
 source-corner interpretation; a nonabsorbing conducting collar separates the
 ideal source from the onset of absorption. Distal alveolar proxy walls remain Robin.
 
-![conducting collar sensitivity](../experiments/paper_review_20261021/figures/conducting_collar_sensitivity.png)
+![conducting collar sensitivity](../paper/figures/conducting_collar_sensitivity.png)
 
 Figure 7. Fixed initial geometries under three proximal boundary rules. Black dashed lines show the conducting-neck bound. Geometries are not reoptimized; collar lengths are hypotheses and reactive membrane amounts differ across rules.
 
@@ -504,7 +505,7 @@ mechanical/space constraints. Coupled pulmonary transport models provide an
 essential counterpoint [9]. The present benchmark can inform these questions
 without assuming that natural geometry maximizes this simplified objective.
 
-![flux and membrane resources](../experiments/paper_review_20261021/figures/flux_and_membrane_resources.png)
+![flux and membrane resources](../paper/figures/flux_and_membrane_resources.png)
 
 Figure 8. Flux and actual membrane resources for all returned endpoints. The dashed line is an observed nominal envelope, not a proven Pareto front or an interpolation of feasible designs. Phase budgets differ.
 

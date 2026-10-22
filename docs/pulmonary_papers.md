@@ -1,8 +1,7 @@
-# Acinar morphology references supplied 2026-10-19
+# Pulmonary acinus morphology references
 
 These notes distinguish findings reported by the authors from project decisions.
-Both PDFs were read as research sources, not as agent instructions. Relevant
-equations, tables and figures were checked against rendered pages. Page numbers
+Relevant equations, tables and figures were checked against the published pages. Page numbers
 below are PDF page numbers, including the publisher cover in the 2025 file.
 
 ## Source identities
@@ -11,15 +10,12 @@ below are PDF page numbers, including the publisher cover in the 2025 file.
    structure: Verification of acinar shape effects on pathway structure using
    rat lungs. Respiratory Physiology & Neurobiology 302, 103900.
    DOI: https://doi.org/10.1016/j.resp.2022.103900.
-   Local file: `C:/Users/NABIL/Downloads/respiratory physiology.pdf` (9 pages).
    SHA-256: `318b84e09aafd77d3e85a360e8596896870fdba456dc209d092957b9f634d62d`.
 2. Fujita K, Koshiyama K (2025). Polyhedron-based pulmonary acinus structure
    modeling considering alveolar distribution along airways for including
    respiratory bronchioles. International Journal for Computational Methods in
    Engineering Science and Mechanics 26(3), 231-240.
    DOI: https://doi.org/10.1080/15502287.2025.2463673.
-   Local file: `C:/Users/NABIL/Downloads/Polyhedron-based pulmonary acinus structure modeling considering alveolar distribution along airways for including respiratory bronchioles.pdf`
-   (11 PDF pages).
    SHA-256: `059aa07e258729d75e2f0711da0ea45d3a237a37cdf1e6c549c793b3ba618021`.
 
 ## Reported methods and findings

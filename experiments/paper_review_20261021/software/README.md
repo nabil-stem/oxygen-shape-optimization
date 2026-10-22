@@ -1,5 +1,0 @@
-# Source versions in this local packet
-
-executed_core mirrors the source snapshot used for numerical production. Its supporting configuration/protocol/requirements are copies from that run. The original 92 source hashes remain unchanged. executed_controls contains the extension's seven pinned source files; their original relative paths are in provenance/classical_control_source_manifest.json. Restore scripts under scripts/ and the protocol under docs/ when constructing a clean historical checkout.
-
-analysis_current supplies the post-run table/figure scripts and the corrected history converter. It is a distinct analysis version, not the executed optimizer. The converter belongs at src/oxygen_shape/viz/history.py in a current analysis checkout. See post_run_curve_fix for the exact before/after changes. The local repository commands in the packet README are tested against the existing data; this lightweight source packet does not embed all journals or claim a clean-room replay on another machine. Environment versions and original input hashes are retained.

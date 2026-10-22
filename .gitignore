@@ -29,3 +29,6 @@ tmp/
 
 # Historical local models are not part of the source release.
 models/
+
+# Local numerical test reports
+/test-results.xml

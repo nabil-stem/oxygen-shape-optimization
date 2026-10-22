@@ -1,8 +1,8 @@
 # Source amplitude, screening and comparable concentration figures
 
-The user correctly noticed that the linear 0--1 color map makes most of the
-domain look similarly dark. This is a display limitation worth fixing. Increasing
-source concentration is not a way to change relative screening in this model.
+A linear 0--1 color map can make strongly screened regions look similarly dark.
+This is a display limitation. Increasing source concentration does not change
+relative screening in the present homogeneous linear model.
 
 ## Derivation before implementation
 

@@ -1,9 +1,8 @@
 # Claim-to-evidence review
 
 Completed computational claim review, 21 October 2026. The main study,
-supplemental review and added classical controls have finished. Evidence is
-collected in experiments/paper_review_20261021. Human scientific review, public
-release and publication decisions remain outside this computational review.
+supplemental review and added classical controls have finished. Evidence is available in the public v0.1.0 release and the curated paper view.
+Human scientific review and journal publication remain separate activities.
 
 | Proposed claim | Evidence and required qualification | Current disposition |
 |---|---|---|
@@ -25,13 +24,14 @@ release and publication decisions remain outside this computational review.
 The paper can retain a failed learning hypothesis or an unfavorable geometry
 comparison. It must not retain an unsupported interpretation merely to make
 an earlier experiment appear successful. Historical exploratory outputs remain
-in the repository; their conclusions are not silently promoted into the frozen
+in the versioned source snapshot; their conclusions are not silently promoted into the frozen
 study. Changing protocols or budgets requires a separately identified experiment.
 
-Publication work remaining outside numerical execution includes human scientific
-and mathematical review, authorship, choice of license, code/data deposition,
-AI-assistance disclosure and journal selection. None has been performed on
-behalf of the authors, and no submission or public release is implied.
+Project code and primary data are publicly released under MIT and CC BY 4.0
+terms. Author identity is recorded in CITATION.cff. Human scientific and
+mathematical review, final submission declarations, archival DOI deposition and
+journal selection remain outstanding. A public artifact is not peer review or
+an accepted article.
 
 A post-run pandas index-alignment bug affected learning-curve rendering. The
 corrected curves keep the actual initial and final solve counts; original
@@ -39,5 +39,5 @@ figures and source diffs are archived. No search/PDE result or reported endpoint
 comparison changed. This presentation correction is distinct from numerical
 validation and is covered by focused index-regression tests and a renewed gate.
 
-Final corrected full regression: **310 passed in 511.75 seconds** on 21 October 2026.
-The XML is retained in tmp/paper_gate_corrected_20261021/tests.xml and the review packet.
+The release regression passes **324 tests** locally and on Windows/Ubuntu.
+[Validation records](https://github.com/nabil-stem/oxygen-shape-optimization/releases/tag/v0.1.0) accompany the full evidence.
