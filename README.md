@@ -49,6 +49,7 @@ Triangle retains [separate terms](THIRD_PARTY.md).
 python -m oxygen_shape.cli validate-1d --config configs/slab_1d.yaml
 python -m oxygen_shape.cli solve --config configs/rectangle_2d.yaml
 python -m oxygen_shape.cli optimize --config configs/optimize_disks.yaml
+python -m oxygen_shape.cli study-holes --config configs/square_holes.yaml
 ```
 
 Commands write reproducible outputs under `experiments/`, including configuration,
@@ -56,6 +57,10 @@ seeds, masks, fields, flux diagnostics and source provenance. Shipped example
 configs generate their own starting geometries. The complete paper protocol is
 in [configs/morphology_trajectories.yaml](configs/morphology_trajectories.yaml);
 see [reproducibility](docs/reproducibility.md) for the full study commands.
+
+The [square-island extension](docs/square_holes_protocol.md) compares maze-like
+domains with empty squares, paired reflecting/reactive walls and fixed-resource
+square relocation. This is a separate experiment from the hole-free v0.1.0 data.
 
 ## Validate and contribute
 

@@ -60,6 +60,10 @@ def cached_fem(path: Path, geometry_or_pslg, Bi: float, max_area: float):
         )
     )
     identity = hashlib.sha256(content + repr((Bi, max_area)).encode()).hexdigest()
+    if not raster and "holes" in geometry_or_pslg:
+        identity = hashlib.sha256(
+            identity.encode() + np.asarray(geometry_or_pslg["holes"], float).tobytes()
+        ).hexdigest()
     if path.exists():
         with np.load(path, allow_pickle=False) as data:
             if str(data["identity"]) != identity:

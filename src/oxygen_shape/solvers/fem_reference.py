@@ -14,6 +14,7 @@ from scipy.sparse.linalg import MatrixRankWarning, spsolve
 
 from oxygen_shape.geometry.boundary import BoundaryKind, extract_boundary
 from oxygen_shape.geometry.raster import RasterGeometry, Side
+from oxygen_shape.geometry.square_holes import hole_labels
 
 
 @dataclass(frozen=True)
@@ -58,17 +59,18 @@ def raster_pslg(geometry: RasterGeometry) -> dict:
     degree = np.bincount(np.asarray(segments).ravel(), minlength=len(vertices))
     if not np.all(degree == 2):
         raise ValueError("Non-manifold point contacts cannot define a simple FEM polygon")
-    # This reference entry point deliberately rejects holes, whose marker points
-    # require an explicit PSLG holes array rather than silently filling them.
-    from scipy.ndimage import binary_fill_holes
-
-    if not np.array_equal(binary_fill_holes(geometry.inside), geometry.inside):
-        raise ValueError("Raster FEM reference currently requires a no-hole domain")
-    return {
+    pslg = {
         "vertices": np.asarray(vertices) * geometry.h,
         "segments": np.asarray(segments, np.int32),
         "segment_markers": np.asarray(markers, np.int32)[:, None],
     }
+    labels, count = hole_labels(geometry)
+    if count:
+        # A cell center is strictly inside the excluded component, unlike a
+        # component centroid which could lie outside a concave hole.
+        seeds = [np.argwhere(labels == i)[0][::-1] + 0.5 for i in range(1, count + 1)]
+        pslg["holes"] = np.asarray(seeds) * geometry.h
+    return pslg
 
 
 def solve_pslg(pslg: dict, Bi: float, max_area: float = 1e-4) -> FEMResult:
@@ -153,4 +155,7 @@ def solve_pslg(pslg: dict, Bi: float, max_area: float = 1e-4) -> FEMResult:
 
 
 def solve_raster_fem(geometry: RasterGeometry, Bi: float, max_area: float = 1e-4) -> FEMResult:
-    return solve_pslg(raster_pslg(geometry), Bi, max_area)
+    result = solve_pslg(raster_pslg(geometry), Bi, max_area)
+    if abs(result.area - geometry.area) > 1e-10 * max(1.0, geometry.area):
+        raise ArithmeticError("FEM triangulation changed raster air area, including holes")
+    return result

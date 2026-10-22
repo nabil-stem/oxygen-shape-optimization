@@ -1,0 +1,20 @@
+seed: 410000
+output_root: ../experiments
+n: 100
+families: [maze_chamber, rectangle, hexagon, acinar_sacs, maze]
+target_area: 0.24
+widths: [0.04, 0.08]
+position_stride: 0.08
+gap: 0.04
+minimum_feature_width: 0.04
+protected_length: 0.12
+permeabilities: [0.01, 0.1, 1, 10, 100]
+validation_Bi: [0.01, 1, 100]
+refinement_factors: [2, 4]
+fem_max_areas: [0.00008, 0.00002]
+search_seeds: [420000, 420001, 420002, 420003, 420004]
+search_budget: 129
+search_raw_budget: 50000
+search_Bi: 1
+exploration: 0.25
+min_improvement: 0.0000000001

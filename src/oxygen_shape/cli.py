@@ -12,6 +12,8 @@ from oxygen_shape.experiments.deletion_hypothesis import run_deletion_study
 from oxygen_shape.experiments.feasibility import run_feasibility_study
 from oxygen_shape.experiments.feasibility_config import FeasibilityConfig
 from oxygen_shape.experiments.feasible_pool_study import PoolStudyConfig, run_feasible_pool_study
+from oxygen_shape.experiments.holes_config import HolesConfig
+from oxygen_shape.experiments.holes_study import run_holes_study
 from oxygen_shape.experiments.optimization import run_optimization
 from oxygen_shape.experiments.pioneer_training import run_pioneer_training
 from oxygen_shape.experiments.policy_evaluation import evaluate_policy
@@ -29,6 +31,20 @@ from oxygen_shape.optimization.revision_config import RevisionConfig
 
 app = typer.Typer(no_args_is_help=True, help="Oxygen diffusion reference experiments (2D).")
 ConfigOption = Annotated[Path, typer.Option("--config", exists=True, dir_okay=False)]
+
+
+@app.command("study-holes")
+def study_holes(
+    config: ConfigOption,
+    resume: Annotated[Path | None, typer.Option("--resume", exists=True, file_okay=False)] = None,
+) -> None:
+    """Compare square-island walls, positions and fixed-resource maze searches."""
+    try:
+        directory, summary = run_holes_study(load_config(config, HolesConfig), resume, typer.echo)
+    except (ValueError, ArithmeticError, OSError, RuntimeError) as exc:
+        typer.echo(f"Square-hole study failed: {exc}", err=True)
+        raise typer.Exit(1) from exc
+    typer.echo(f"Status={summary['status']}; output={directory}")
 
 
 @app.command("benchmark-valid-pools")
